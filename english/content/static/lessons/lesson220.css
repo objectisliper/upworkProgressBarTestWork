@@ -1,0 +1,410 @@
+﻿/* title page-book before les220 */
+#lesson210 {
+	display:none;
+}
+/*
+#lesson210 .page-book,
+#lesson210 .page-chapter {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:667px;
+	padding:15px;
+}
+*/
+
+#lesson220 {
+	display:none;
+}
+
+#lesson220 .bg {
+	position:absolute;
+	top:100px; left:0;
+	text-align:left;
+	width:1016px;
+	height:567px;
+	overflow:hidden;
+}
+
+#lesson220 .bg img.is_sue,
+#lesson220 .bg img.is_sam {
+	width:1150px;
+	height:612px;
+}
+
+#lesson220 div.cards220 {
+	border:1px solid #cccccc;
+	background-color:#fff;
+	padding:24px 0 0 19px;
+	margin-top:67px;
+	margin-left:262px;
+	height:242px; width:428px;
+}
+
+#lesson220 div.card {
+	display:inline-block;
+	position:relative;
+	width:190px;
+	vertical-align:top;
+	text-align:center;
+	cursor:pointer;
+}
+
+#lesson220 div.card img.card {
+	width:108px;
+}
+
+#lesson220 div.card img.card-hover {
+	position:absolute;
+	display:none;
+	top:-5px; left:32px;
+	width:129px;
+}
+#lesson220 div.card:hover img.card-hover {
+	display:block;
+}
+
+#lesson220 div.card img.check,
+#lesson220 div.card img.partial {
+	position:absolute;
+	top:129px; left:92px;
+	width:36px; height:36px;
+}
+
+#lesson220 div.card span {
+	display:inline-block;
+	width:100%;
+	text-align:left;
+	padding-left:42px;
+}
+
+/* 221 - risks */
+#lesson221 {
+	display:none;
+}
+
+#lesson221 .bg {
+	position:absolute;
+	left:0px; top:110px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson221 .bg img.is_sue {
+	position:absolute;
+	top:76px; left:0px;
+	height:434px;
+}
+
+#lesson221 .bg img.is_sam {
+	position:absolute;
+	top:89px; left:0px;
+	height:423px;
+}
+
+#lesson221 .bg .lbub {
+	position:absolute;
+	top:11px; left:79px;
+}
+#lesson221 .bg .lbub img {
+	position:absolute;
+	top:0; left:0;
+	width:161px; height:139px;
+	opacity:0.5;
+}
+#lesson221 .bg .lbub p {
+	position:relative;
+	display:block;
+	width:162px;
+	padding:25px 15px;
+	font-size:16px;
+	line-height:21px;
+	text-align:center;
+}
+
+#lesson221 div.tips {
+	position:relative;
+	background-color:transparent;
+	width:835px;
+	margin-left:172px;
+}
+
+#lesson221 div.tips-slider {
+	padding:0 95px 0 95px;
+	background-color:transparent;
+	margin-top:10px;
+}
+
+#lesson221 .tips-item  {
+	position:relative;
+	height:510px;
+	background-color: #f1f1f1;
+	overflow: hidden;
+}
+
+#lesson221.lesson .lesson-body .tips-item h2 {
+	font-weight:600;
+	color:#65b8c0;
+	padding-bottom:10px;
+	margin-top:10px;
+}
+
+#lesson221 .tips-item .row {
+	margin-left:0;
+	margin-right:0;
+}
+
+#lesson221 .tip1 .col-anim {
+	width:350px;
+}
+#lesson221 .tip1 .col-txt {
+	width:278px;
+}
+#lesson221 .tip1 p {
+	font-size:15px;
+	line-height:22px;
+}
+
+#lesson221 .tip1 img.wifi { width:339px; }
+
+#lesson221 .tip1 img.wifinet {
+	position:absolute;
+	top:45px; left:43px;
+}
+
+#lesson221 .tip1 img.contbut {
+	position:absolute;
+	top:209px; left:216px;
+}
+
+#lesson221 .tip1 img.cursor {
+	position:absolute;
+	top:364px; /* to 222 */
+	left:353px; /* to 253 */
+}
+
+#lesson221 .tip1 img.ring {
+	position:absolute;
+	top:48px; left:65px;
+	width:235px;
+}
+
+#lesson221 .tip2 .col-anim {
+	width:265px;
+}
+#lesson221 .tip2 .col-txt {
+	width:362px;
+}
+#lesson221 .tip2 p {
+	font-size:15px;
+	line-height:22px;
+}
+
+#lesson221 .tip2 img.scr { width:302px; margin-left:-25px; }
+
+#lesson221 .tip2 div.arrows {
+	position:absolute;
+	top:160px; left:104px;
+}
+
+#lesson221 .tip2 .arr_up {
+	display:inline-block;
+	width:32px;
+	height:80px;
+	background:url(../tips/0221-2-arrup.png) no-repeat;
+	background-size:28px 43px;
+	animation: sprite_221arr_up 0.45s steps(10) infinite;
+}
+
+@keyframes sprite_221arr_up {
+	from { background-position: 0 10px; }
+	to { background-position:0 0; }
+}
+
+#lesson221 .tip2 .arr_down {
+	display:inline-block;
+	width:44px;
+	height:80px;
+	background:url(../tips/0221-2-arrdown.png) no-repeat;
+	background-size:28px 43px;
+	animation: sprite_221arr_down 0.25s steps(10) infinite;
+}
+
+@keyframes sprite_221arr_down {
+	from { background-position:0 0; }
+	to { background-position:0 10px; }
+}
+
+
+
+/* 222 - tips */
+#lesson222 {
+	display:none;
+}
+
+#lesson222 .bg {
+	position:absolute;
+	left:0px; top:110px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson222 .bg img.is_sue {
+	position:absolute;
+	top:76px; left:0px;
+	height:434px;
+}
+
+#lesson222 .bg img.is_sam {
+	position:absolute;
+	top:89px; left:0px;
+	height:423px;
+}
+
+#lesson222 .bg .lbub {
+	position:absolute;
+	top:11px; left:79px;
+}
+#lesson222 .bg .lbub img {
+	position:absolute;
+	top:0; left:0;
+	width:161px; height:139px;
+	opacity:0.5;
+}
+#lesson222 .bg .lbub p {
+	position:relative;
+	display:block;
+	width:162px;
+	padding:25px 15px;
+	font-size:16px;
+	line-height:21px;
+	text-align:center;
+}
+
+#lesson222 div.tips {
+	position:relative;
+	background-color:transparent;
+	width:835px;
+	margin-left:172px;
+}
+
+#lesson222 div.tips-slider {
+	padding:0 95px 0 95px;
+	background-color:transparent;
+	margin-top:10px;
+}
+
+#lesson222 .tips-item  {
+	position:relative;
+	height:510px;
+	background-color: #f1f1f1;
+	overflow: hidden;
+}
+
+#lesson222 div.tips .slidertip {
+	top:9px;
+	left:10px;
+	z-index:100;
+	background-size:96px 96px;
+	height:96px; width:96px;
+}
+#lesson222 div.tips .slidertip  div.tip {
+	padding-top:29px;
+	font-size:22px;
+	line-height:22px;
+}
+#lesson222 div.tips .slidertip div.num {
+	padding-top:0px;
+	font-size:21px;
+	line-height:21px;
+}
+#lesson222 div.tips .slidertip div.num span {
+	font-size:22px;
+}
+	
+#lesson222 .tips-item .txt {
+	position:absolute;
+	left:0; top:5px;
+	width:100%;
+	padding:14px 15px 0 146px;
+}
+
+#lesson222 .tips-item .txt h2 {
+	font-size:20px;
+	line-height:22px;
+	padding-bottom:5px;
+	font-weight:600;
+	color:#ff7d00;
+}
+
+#lesson222 .tips-item .txt p {
+	font-size:16px;
+	line-height:23px;
+	color:#444;
+}
+
+#lesson222 .tips-item .animwrap {
+	position:absolute;
+	left:15px;
+	width:600px;
+	overflow:hidden;
+}
+
+/* tip1 */
+#lesson222 .tip1 .animwrap {
+	top:104px;
+	height:393px;
+}
+#lesson222 .tip1 .animwrap img.scr,
+#lesson222 .tip1 .animwrap img.man {
+	position:absolute;
+	width:600px;
+	top:0; left:0;
+}
+
+#lesson222 .tip1 .animwrap div.pubwifi {
+	position:absolute;
+	top:0; left:225px;
+	font-size:24px;
+	font-weight:bold;
+	color:#444;
+}
+
+#lesson222 .tip1 .animwrap img.signal {
+	position:absolute;
+	top:0; left:31px;
+	width:533px;
+}
+
+#lesson222 .tip1 .animwrap img.ring {
+	position:absolute;
+	width:200px;
+	top:92px; left:200px;
+}
+
+/* tip2 */
+#lesson222 .tip2 .animwrap {
+	top:104px;
+	height:393px;
+}
+
+#lesson222 .tip2 .animwrap img.scr {
+	position:absolute;
+	width:700px;
+	top:-74px; left:-82px;
+}
+
+#lesson222 .tip2 .animwrap img.line1 {
+	position:absolute;
+	left:178px; top:177px;
+}
+#lesson222 .tip2 .animwrap img.line2 {
+	position:absolute;
+	left:178px; top:204px;
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg);
+}

@@ -1,0 +1,551 @@
+﻿#lesson120 {
+	display:none;
+}
+/*
+#lesson120 .page-book,
+#lesson120 .page-chapter {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:667px;
+	padding:15px;
+}
+*/
+#lesson120 .bg {
+	position:absolute;
+	top:118px; left:0px;
+	text-align:left;
+	width:1016px;
+	height:548px;
+	overflow:hidden;
+}
+#lesson120 .bg img.is_sue,
+#lesson120 .bg img.is_sam {
+	position:absolute;
+	left:0; top:-124px;
+}
+
+#lesson120 .avatar {
+	position:absolute;
+	top:121px; left:95px;
+}
+
+#lesson120 div.cards120 {
+	border-radius:20px;
+	background-color:#fff;
+	border:1px solid #6b6b6b;
+	padding:30px;
+	margin-top:100px;
+	min-height:392px;
+}
+
+#lesson120 div.card {
+	display:inline-block;
+	position:relative;
+	width:129px;
+	vertical-align:top;
+	text-align:center;
+	cursor:pointer;
+}
+
+#lesson120 div.card img.card {
+	width:107px;
+}
+
+#lesson120 div.card img.card-hover {
+	position:absolute;
+	display:none;
+	top:-6px; left:0px;
+	width:130px;
+}
+#lesson120 div.card.card124 img.card-hover,
+#lesson120 div.card.card125 img.card-hover {
+	top:-4px;
+}
+
+#lesson120 div.card:hover img.card-hover {
+	display:block;
+}
+
+#lesson120 div.card img.check,
+#lesson120 div.card img.partial {
+	position:absolute;
+	top:131px; left:66px;
+	width:32px; height:32px;
+}
+
+#lesson120 div.card span {
+	display:inline-block;
+	width:100%;
+	text-align:left;
+}
+
+
+#lesson121 {
+	display:none;
+}
+
+#lesson121 .videoplayer {
+	height:506px;
+	overflow:hidden;
+	text-align:center;
+}
+
+#lesson121 .videoplayer .flowplayer {
+	height:502px;
+	width:889px;
+}
+
+#lesson121 .lesson-body p.video {
+	margin-top:10px;
+}
+
+
+#lesson122 {
+	display:none;
+}
+
+#lesson122 .col-txt {
+	width:300px;
+}
+
+#lesson122 .col-img {
+	width:713px;
+	overflow:hidden;
+}
+#lesson122 .col-img-wrap {
+	position:relative;
+	margin-top:-55px;
+}
+
+#lesson122 img.bg {
+	width:676px;
+}
+#lesson122 img.pc {
+	position:absolute;
+	top:88px; left:139px;
+	width:391px;
+}
+#lesson122 img.stic1 {
+	position:absolute;
+	top:88px; left:127px;
+	width:142px;
+}
+#lesson122 img.stic2 {
+	position:absolute;
+	top:88px; left:404px;
+	width:142px;
+}
+#lesson122 img.sign1 {
+	position:absolute;
+	top:75px; left:112px;
+	width:167px;
+}
+#lesson122 img.sign2 {
+	position:absolute;
+	top:75px; left:389px;
+	width:167px;
+}
+
+
+#lesson1221 {
+	display:none;
+}
+
+#lesson1221 .col-txt {
+	width:300px;
+}
+
+#lesson1221 .col-img {
+	width:713px;
+	overflow:hidden;
+}
+#lesson1221 .col-img-wrap {
+	position:relative;
+	margin-top:0px;
+	height:533px;
+	overflow:hidden;
+}
+
+#lesson1221 img.bg {
+	width:753px;
+	margin:0;
+}
+
+#lesson1221 img.imgarr {
+	position:absolute;
+	top:304px; left:295px;
+	animation: sprite_1221arr 0.3s steps(10) infinite;
+}
+@keyframes sprite_1221arr {
+	from { top:304px; }
+	to { top:327px; }
+}
+
+
+#lesson123 {
+	display:none;
+}
+
+#lesson123 .col-txt {
+	width:300px;
+	padding-left:0;
+	padding-top:33px;
+}
+
+#lesson123 .col-img {
+	width:713px;
+	overflow:hidden;
+	padding-top:0;
+}
+#lesson123 .col-img-wrap {
+	position:relative;
+	margin-top:-11px;
+	height:500px;
+	overflow:hidden;
+}
+
+#lesson123 img.bg {
+	width:702px;
+}
+
+#lesson123 img.bin {
+	position:absolute;
+	top:193px; left:59px;
+	width:189px;
+}
+
+#lesson123 img.printer {
+	position:absolute;
+	top:103px; left:342px;
+	width:328px;
+}
+
+#lesson123 img.secret1 {
+	position:absolute;
+	top:330px; left:54px;
+	width:83px;
+}
+
+#lesson123 img.secret2 {
+	position:absolute;
+	top:349px; left:345px;
+	width:121px;
+}
+
+
+/* anim - moving hand */
+/* left part */
+#lesson123 .ddocl
+{
+	position:absolute;
+	top:-8px; left:-50px;
+	width:224px; height:210px;
+
+	-webkit-transform:rotate(11deg);
+	-moz-transform:rotate(11deg);
+	-o-transform:rotate(11deg);
+	-ms-transform:rotate(11deg);
+	transform:rotate(11deg);
+}
+
+#lesson123 .ddocl .docl
+{
+	position:absolute;
+	background-image:url(0123-docl.png);
+	width:126px; height:101px;
+	top:150px; left:176px;
+	background-size:112px;
+	background-repeat:no-repeat;
+}
+
+#lesson123 .ddocl .handl
+{
+	position:absolute;
+	background-image:url(0123-handl.png);
+	width:282px; height:224px;
+	top:0px; left:0px;
+	background-size:241px;
+	background-repeat:no-repeat;
+}
+
+/* right part */
+#lesson123 .ddocr
+{
+	position:absolute;
+	top:-17px;
+	left:172px;
+
+	-webkit-transform:rotate(-15deg);
+	-moz-transform:rotate(-15deg);
+	-o-transform:rotate(-15deg);
+	-ms-transform:rotate(-15deg);
+	transform:rotate(-15deg);
+}
+
+#lesson123 .ddocr .handr
+{
+	position:absolute;
+	background-image:url(0123-handr.png);
+	width:483px; height:412px;
+	top:0px;
+	left:0px;
+	background-size:240px;
+	background-repeat:no-repeat;
+}
+
+#lesson123 .ddocr .docr
+{
+	position:absolute;
+	background-image:url(0123-docr.png);
+	width:306px; height:332px;
+	top:145px;
+	left:-55px;
+	background-size:104px;
+	background-repeat:no-repeat;
+}
+/* /anim - moving hand */
+
+
+#lesson124 {
+	display:none;
+}
+
+#lesson124 div.bg {
+	position:absolute;
+	top:106px; left:0;
+	width:1016px;
+	height:561px;
+	overflow:hidden;
+}
+
+#lesson124 img.bg {
+	position:absolute;
+	top:-119px; left:0;
+}
+
+#lesson124 img.hint {
+	display:none;
+	position:absolute;
+	top:-119px; left:0;
+}
+
+#lesson124 div.spot { position:absolute; cursor:auto; }
+
+#lesson124 div.spot-124-4 {
+	top:215px; left:378px;
+	width:136px; height:79px;
+}
+
+#lesson124 div.spot-124-5 {
+	top:56px; left:184px;
+	width:200px; height:70px;
+}
+
+#lesson124 div.spot-124-6 {
+	top:358px; left:409px;
+	width:132px; height:188px;
+}
+
+#lesson124 div.spot-124-7 {
+	top:370px; left:800px;
+	width:74px; height:48px;
+}
+
+#lesson124 .bubble2 {
+	position:absolute;
+	display:inline-block;
+	background:#f1b01e;
+	border-radius:15px;
+	padding:20px 20px;
+	font-size:22px;
+	font-weight:normal;
+	color:#333;
+	box-shadow:5px 7px 10px rgba(77, 56, 9, 0.58);
+	line-height:30px;
+	width:376px;
+	top:17px; left:528px;
+}
+div.bubble2:after {
+	content:"";
+	display:block;
+	background-image:url(../img/bubble2-arr.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	width:100px;
+	height:74px;
+	position:absolute;
+	right:-99px;
+	top:66px;
+}
+
+#lesson124 .lesson-msg {
+	top:30px; left:413px;
+	width:579px;
+}
+
+#lesson125 {
+	display:none;
+}
+
+#lesson125 div.bg {
+	position:absolute;
+	top:106px; left:0;
+	width:1016px;
+	height:561px;
+	overflow:hidden;
+}
+
+#lesson125 div.bg img.bg {
+	position:absolute;
+	top:-150px; left:25px;
+	width:990px;
+}
+
+#lesson125 div.bg .hints-wrap {
+	position:absolute;
+	top:-180px; left:-27px;
+}
+
+#lesson125 .some-hint {
+	position:absolute;
+}
+
+#lesson125 .phone-hint {
+	left:286px; top:510px;
+	width:163px; height:190px;
+	animation: sprite125_phone-hint 1.2s steps(4) infinite;
+	background-image:url(0125-hint-phone.png);
+	background-size:162px 760px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	opacity:0.8;
+}
+@keyframes sprite125_phone-hint {
+	from { background-position:0 0; }
+	to { background-position:0 -760px; }
+}
+
+#lesson125 .docs-hint {
+	left:457px; top:505px;
+	width:165px; height:197px;
+	animation: sprite125_doc-hint 1.2s steps(4) infinite;
+	background-image:url(0125-hint-doc.png);
+	background-size:165px 788px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	opacity:0.8;
+}
+@keyframes sprite125_doc-hint {
+	from { background-position:0 0; }
+	to { background-position:0 -788px; }
+}
+
+#lesson125 .stic1-hint {
+	left:582px; top:199px;
+	width:38px; height:63px;
+	animation: sprite125_stic1-hint 1.2s steps(4) infinite;
+	background-image:url(0125-hint-stic1.png);
+	background-size:38px 252px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	opacity:0.8;
+}
+@keyframes sprite125_stic1-hint {
+	from { background-position:0 0; }
+	to { background-position:0 -252px; }
+}
+
+#lesson125 .stic2-hint {
+	left:392px; top:466px;
+	width:62px; height:62px;
+	animation: sprite125_stic2-hint 1.2s steps(4) infinite;
+	background-image:url(0125-hint-stic2.png);
+	background-size:62px 248px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	opacity:0.8;
+}
+@keyframes sprite125_stic2-hint {
+	from { background-position:0 0; }
+	to { background-position:0 -248px; }
+}
+
+#lesson125 .stic3-hint {
+	left:783px; top:434px;
+	width:44px; height:42px;
+	animation: sprite125_stic3-hint 1.2s steps(4) infinite;
+	background-image:url(0125-hint-stic3.png);
+	background-size:44px 168px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	opacity:0.8;
+}
+@keyframes sprite125_stic3-hint {
+	from { background-position:0 0; }
+	to { background-position:0 -168px; }
+}
+
+#lesson125 .trash-hint {
+	left:621px; top:613px;
+	width:97px; height:95px;
+	animation: sprite125_trash-hint 1.2s steps(4) infinite;
+	background-image:url(0125-hint-trash.png);
+	background-size:97px 380px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	opacity:0.8;
+}
+@keyframes sprite125_trash-hint {
+	from { background-position:0 0; }
+	to { background-position:0 -380px; }
+}
+
+#lesson125 .map {
+	position:absolute;
+	opacity:0;
+	top:181px;
+	left:252px;
+}
+#lesson125 .qmask {
+	position:absolute;
+	background:transparent;
+	width:582px;
+	height:550px;
+	top:2px;
+	left:16px;
+}
+
+/* msg */
+#lesson125 .lesson-msg {
+	top:15px; left:18px;
+	width:530px;
+}
+
+#lesson125 .lesson-msg .red { color:#f00; }
+#lesson125 .lesson-msg .green { color:#00bd00; }
+
+#lesson125 .lesson-msg p { padding-top:5px; }
+
+#lesson125 .lesson-msg .but { text-align:center; }
+
+#lesson125 .lesson-msg .but button {
+	background:#65b8c0;
+	color:#fff;
+	font-size:20px;
+	line-height: 27px;
+	font-weight:bold;
+	border-radius:5px;
+	border:0 none;
+	outline:none;
+	padding:6px 13px 6px 13px;
+	cursor:pointer;
+	width:70px;
+	margin:15px;
+}
+
+#lesson125  .lesson-msg1 ,
+#lesson125  .lesson-msg2 {
+	top:163px; left:292px;
+	width:419px;
+	z-index:120;
+}

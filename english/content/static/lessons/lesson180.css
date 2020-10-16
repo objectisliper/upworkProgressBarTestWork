@@ -1,0 +1,498 @@
+﻿/* title page-book before les180 */
+#lesson170 {
+	display:none;
+}
+/*
+#lesson170 .page-book,
+#lesson170 .page-chapter {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:667px;
+	padding:15px;
+}
+*/
+#lesson180 {
+	display:none;
+}
+
+#lesson180 .block1, #lesson180 .block2 {
+	position:absolute;
+	top:0; left:0;
+}
+
+#lesson180 .bg {
+	position:absolute;
+	left:0px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson180 .block1 .bg { top:110px; }
+#lesson180 .block1 .bg img.floor {
+	position:absolute;
+	top:-162px; left:0;
+}
+#lesson180 .block1 .bg img.people {
+	position:absolute;
+	top:107px; right:77px;
+	width:700px;
+}
+#lesson180 .block1 .bg img.board {
+	position:absolute;
+	top:-12px; left:210px;
+	width:807px; height:489px;
+}
+
+#lesson180 .block1 .bg img.is_sue {
+	position:absolute;
+	top:31px; left:0px;
+	height:530px;
+}
+
+#lesson180 .block1 .bg img.is_sam {
+	position:absolute;
+	top:44px; left:0px;
+	height:506px;
+}
+
+#lesson180 .block1 .bg div.intro {
+	position:absolute;
+	top:41px; left:286px;
+	width:659px; height:354px;
+	background-color:#fff;
+	padding:15px;
+}
+
+
+#lesson181 {
+	display:none;
+}
+
+#lesson181 .bg {
+	position:absolute;
+	left:0px; top:110px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson181 .bg img.is_sue {
+	position:absolute;
+	top:76px; left:0px;
+	height:434px;
+}
+
+#lesson181 .bg img.is_sam {
+	position:absolute;
+	top:89px; left:0px;
+	height:423px;
+}
+
+#lesson181 .bg .lbub {
+	position:absolute;
+	top:11px; left:79px;
+}
+#lesson181 .bg .lbub img {
+	position:absolute;
+	top:0; left:0;
+	width:161px; height:139px;
+	opacity:0.5;
+}
+#lesson181 .bg .lbub p {
+	position:relative;
+	display:block;
+	width:162px;
+	padding:15px 15px;
+	font-size:16px;
+	line-height:21px;
+	text-align:center;
+}
+
+#lesson181 div.tips {
+	position:relative;
+	background-color:transparent;
+	width:835px;
+	margin-left:172px;
+}
+
+#lesson181 .tips-item  {
+	position:relative;
+	height:510px;
+	background-color: #f1f1f1;
+	overflow: hidden;
+}
+
+#lesson181 div.tips .slidertip {
+	top:9px;
+	left:10px;
+	z-index:100;
+	
+	background-size:95px 95px;
+	height:95px; width:95px;
+}
+#lesson181 div.tips .slidertip div.tip {
+	padding-top:24px;
+	font-size:22px;
+}
+#lesson181 div.tips .slidertip div.num {
+	padding-top:0px;
+	font-size:20px;
+	line-height:22px;
+}
+#lesson181 div.tips .slidertip div.num span {
+	font-size:20px;
+}
+
+#lesson181 div.tips-slider {
+	padding:0 95px 0 95px;
+	background-color:transparent;
+	margin-top:10px;
+}
+
+#lesson181 .tips-item .txt {
+	position:absolute;
+	left:0; top:5px;
+	width:100%;
+	color:#fff;
+	padding:14px 15px 0 118px;
+}
+
+#lesson181 .tips-item .txt h2 {
+	font-size:20px;
+	line-height:20px;
+	padding-bottom:5px;
+}
+
+#lesson181 .tips-item .txt p {
+	font-size:14px;
+	line-height:18px;
+	color:#444;
+}
+
+#lesson181 .tips-item .animwrap,
+#lesson181 .tips-item .animwrap div,
+#lesson181 .tips-item .animwrap img {
+	position:absolute;
+}
+
+#lesson181 .tips-item .animwrap {
+	top:126px; left:5px;
+	width:620px; height:379px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	
+	border:4px solid #3b4e5e;
+	border-radius:20px;
+}
+
+#lesson181 .tips-item .animwrap .cur {
+	width:16px; height:29px;
+}
+
+/* tip1 */
+#lesson181 .tip1 .top {
+	top:0; left:0;
+}
+
+#lesson181 .tip1 .ban1 {
+	top:75px; left:9px;
+	width:221px;
+}
+
+#lesson181 .tip1 .ban2 {
+	top:74px; left:262px;
+	width:186px;
+}
+
+#lesson181 .tip1 .ban3 {
+	top:78px; left:482px;
+	width:113px;
+}
+
+#lesson181 .tip1 .ban4 {
+	top:187px; left:18px;
+	width:206px;
+}
+
+#lesson181 .tip1 .ban5 {
+	top:191px; left:248px;
+	width:135px;
+}
+
+#lesson181 .tip1 .ban6 {
+	top:186px; left:394px;
+	width:207px;
+}
+
+#lesson181 .tip1 .ban7 {
+	top:289px; left:39px;
+	width:118px;
+}
+
+#lesson181 .tip1 .ban8 {
+	top:276px; left:213px;
+	width:187px;
+}
+
+#lesson181 .tip1 .ban9 {
+	top:278px; left:444px;
+	width:131px;
+}
+
+#lesson181 .tip1 .vir {
+	top:-19px; left:-85px;
+	width:747px; height:471px;
+	overflow:hidden;
+}
+
+#lesson181 .tip1 .cur {
+	top:371px; left:603px;
+	width:16px; height:29px;
+}
+
+/* tip2 */
+#lesson181 .tip2 img.src {
+	width:612px;
+	top:-17px; left:0;
+}
+
+#lesson181 .tip2 .insect {
+	background-image:url(../tips/0181-2-insect.png);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:0 0;
+	background-size:contain;
+}
+
+#lesson181 .tip2 .t0 {
+	height:75px; width:55px;
+	top:138px; left:70px;
+}
+
+#lesson181 .tip2 .t1 {
+	height:70px; width:50px;
+	top:200px; left:200px;
+	-ms-transform:rotate(37deg);
+	-moz-transform:rotate(37deg);
+	-webkit-transform:rotate(37deg);
+	transform:rotate(37deg);
+}
+
+#lesson181 .tip2 .t2 {
+	height:80px; width:65px;
+	top:240px; left:200px;
+	-ms-transform:rotate(134deg);
+	-moz-transform:rotate(134deg);
+	-webkit-transform:rotate(134deg);
+	transform:rotate(134deg);
+}
+
+#lesson181 .tip2 .t3 {
+	height:70px; width:41px;
+	top:240px; left:250px;
+	-ms-transform:rotate(174deg);
+	-moz-transform:rotate(174deg);
+	-webkit-transform:rotate(174deg);
+	transform:rotate(174deg);
+}
+
+#lesson181 .tip2 .t4 {
+	height:70px; width:50px;
+	top:240px; left:280px;
+	-ms-transform:rotate(207deg);
+	-moz-transform:rotate(207deg);
+	-webkit-transform:rotate(207deg);
+	transform:rotate(207deg);
+}
+
+#lesson181 .tip2 .t5 {
+	height:80px; width:55px;
+	top:240px; left:300px;
+	-ms-transform:rotate(257deg);
+	-moz-transform:rotate(257deg);
+	-webkit-transform:rotate(257deg);
+	transform:rotate(257deg);
+}
+
+#lesson181 .tip2 .t6 {
+	height:73px; width:50px;
+	top:270px; left:300px;
+	-ms-transform:rotate(313deg);
+	-moz-transform:rotate(313deg);
+	-webkit-transform:rotate(313deg);
+	transform:rotate(313deg);
+}
+
+/* tip3 */
+#lesson181 .tip3 img.scr {
+	width:612px;
+	top:-17px; left:0;
+}
+
+#lesson181 .tip3 .cur {
+	top:474px; left:755px;
+	width:16px; height:29px;
+}
+
+#lesson181 .tip3 .adobe {
+	top:63px; left:496px;
+	width:480px; height:393px;
+	overflow:hidden;
+}
+
+#lesson181 .tip3 .http {
+	top:11px; left:105px;
+	width:170px; height:19px;
+	overflow:hidden;
+	background-image:url(../tips/0181-3-http.png);
+	background-repeat:no-repeat;
+	animation: sprite_181http 0.4s steps(2) infinite;
+}
+@keyframes sprite_181http {
+	from { background-position: 0 0px; }
+	to { background-position: 0 -38px; }
+}
+
+/* tip4 */
+#lesson181 .tip4 img.scr {
+	width:629px;
+	top:-20px; left:-17px;
+}
+
+#lesson181 .tip4 .paypol {
+	top:8px; left:115px;
+	width:150px; height:26px;
+	overflow:hidden;
+	background-image:url(../tips/0181-4-paypol.png);
+	background-repeat:no-repeat;
+	animation: sprite_181paypol 0.4s steps(2) infinite;
+}
+@keyframes sprite_181paypol {
+	from { background-position: 0 0px; }
+	to { background-position: 0 -52px; }
+}
+
+#lesson181 .tip4 .redring {
+	top:58px; left:176px;
+}
+
+/* tip5 */
+#lesson181 .tip5.tips-item .txt {
+	padding-top:2px;
+}
+
+#lesson181 .tip5 .scr {
+	top:45px; left:10px;
+	width:593px;
+}
+
+#lesson181 .tip5 .top {
+	top:-18px; left:0;
+}
+
+#lesson181 .tip5 .redring {
+	top:207px; left:412px;
+	width:154px;
+}
+
+/* tip6 */
+#lesson181 .tip6 img.scr {
+	width:629px;
+	top:-20px; left:-17px;
+}
+
+#lesson181 .tip6 .bord {
+	top:218px;
+	left:271px;
+	width:82px;
+	height:4px;
+	background:#f00;
+}
+
+/* tip7 */
+#lesson181 .tip7 .scr {
+	top:11px; left:-23px;
+	width:656px;
+}
+
+#lesson181 .tip7 .frma {
+	top:59px; left:151px;
+	width:300px;
+}
+
+#lesson181 .tip7 .redring {
+	top:47px; left:224px;
+	width:203px;
+}
+
+/* tip8 */
+#lesson181 .tip8 .scr {
+	top:11px; left:-23px;
+	width:656px;
+}
+
+/* tip9 */
+#lesson181 .tip9 .scr {
+	top:1px; left:0px;
+	width:612px;
+}
+
+#lesson181 .tip9 .grey {
+	top:0; left:0;
+	width:618px; height:380px;
+	background:rgba(179, 179, 179, 0.62);
+}
+
+#lesson181 .tip9 .https {
+	top:29px; left:118px;
+	width:155px; height:34px;
+}
+
+/* tip10 */
+#lesson181 .tips-item.tip10 .animwrap {
+	top:145px; height:360px;
+}
+
+#lesson181 .tip10 .scr {
+	top:8px; left:0px;
+	width:612px;
+}
+
+#lesson181 .tip10 .v {
+	top:65px; left:315px;
+}
+
+/* tip11 */
+#lesson181 .tip11 .scr {
+	top:40px; left:0px;
+	width:612px;
+}
+
+#lesson181 .tip11 .top {
+	top:-18px; left:0;
+}
+
+#lesson181 .tip11 .hint {
+	top:134px; left:187px;
+}
+
+/* tip12 */
+#lesson181 .tip12 .top {
+	top:-18px; left:0;
+}
+
+#lesson181 .tip12 .scr1 {
+	top:70px; left:0px;
+	width:614px;
+}
+
+#lesson181 .tip12 .scr2 {
+	top:59px; left:0;
+	width:614px;
+}
+
+#lesson181 .tip12 .v {
+	top:128px; left:281px;
+	width:66px;
+}

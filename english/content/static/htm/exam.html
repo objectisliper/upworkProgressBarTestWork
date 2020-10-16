@@ -1,0 +1,365 @@
+﻿<script>
+var Quiz32Config = {
+    files: [
+        'qp2',
+        'qp6',
+        'qp8',
+        'qp13',
+        'qp14'
+    ],
+    unsafeAttachTypes: [
+    	'zip',
+		'xls',
+		'doc',
+    	'exe'
+    ],
+    autoStepAllow: false,
+    autoStepTimeout: 2000,
+    marginBottomWithinBlocks: 20,
+    blocksEnabled: {
+        text1: false,
+        text2: true,
+        tips: true,
+        quiz: true,
+        video: false
+    },
+	nextTitle: "Please choose Regular or Phishing"
+};
+
+fin_exam102 = [
+	{
+		//1
+		showResults: 1,
+		question: "",
+		question2: "http://h.paypal.de-checking.net/de/ID.php?u=LhsdoOKJfsjdsdvg",
+		type: "radio",
+		answer: 4,
+		answers:
+		[
+			"paypal.de",
+			"checking.net",
+			"de-checking.net",
+			"h.paypal"
+		],
+		remark: ""
+	},
+
+	{
+		//2
+		question: "",
+		question2: "https://paypal.secure.server.de",
+		type: "radio",
+		answer: 2,
+		answers:
+		[
+			"paypal.secure",
+			"server.de",
+			"secure.server"
+		],
+		remark: ""
+	},
+
+	{
+		//3
+		question: "",
+		question2: "http://paypal.de@secure-server.de/secure-environment",
+		type: "radio",
+		answer: 8,
+		answers:
+		[
+			"paypal.de",
+			"server.de",
+			"secure-environment",
+			"secure-server.de"
+		],
+		remark: ""
+	},
+
+	{
+		//4
+		question: "",
+		question2: "http://signin.paypal.com@10.19.32.4/o",
+		type: "radio",
+		answer: 4,
+		answers:
+		[
+			"paypal.com",
+			"signin.paypal",
+			"10.19.32.4",
+			"19.32.4/o"
+		],
+		remark: ""
+	},
+
+	{
+		//5
+		question: "",
+		question2: "http://63.17.167.23/pc/verification.htm?=https://www.paypal.com/",
+		type: "radio",
+		answer: 8,
+		answers:
+		[
+			"www.paypal.com",
+			"https://www.paypal.com",
+			"verification.htm",
+			"63.17.167.23"
+		],
+		remark: ""
+	},
+
+	{
+		//6
+		question: "",
+		question2: "http://paypal.com.de.cgi-bin.webscr.cmd-login-submit.dispatch.secure.su/cgi-bin/",
+		type: "radio",
+		answer: 4,
+		answers:
+		[
+			"paypal.com",
+			"dispatch.secure",
+			"secure.su",
+			"cgi-bin.webscr",
+			"paypal.com.de"
+		],
+		remark: ""
+	}
+];
+
+fin_exam145 = [
+	{
+		showResults: 0,
+		skipExam: 0,
+		randQ: 0,
+		countQ: 2,
+
+		//1
+		question: "",
+		question2: "You are asked to choose a secure password. Which one can be considered as secure?",
+		answer: 8,
+		answers:
+		[
+			"Formula1000",
+			"JanApp2020",
+			"1234567890",
+			"G&s2Pb3x!14"
+		],
+		remark: "For almost every account that you make online, you are " +
+			"required to make a secure password. Don't use a word or phrase of special " +
+			"importance to you like a birthday or family member. That's the kind of " +
+			"information that can be discovered by someone doing a little digging. It " +
+			"should be at least eight-to-10 characters long and use at least one capital " +
+			"letter and one lowercase letter.<br>" +
+			"Tip: Create a sentence or phrase as the " +
+			"basis for your password. Example: If your children are Jessie, Cassey, " +
+			"Michael and Jenny, your base word might be &quot;jecamije&quot; - the first " +
+			"two letters of each name combined. If your first house was on Spooner Street, " +
+			"a base word might be &quot;houseonspooner&quot;. So you could add an underscore " +
+			"(or other random punctuation) and numbers to create &quot;jecamije_&quot;. Or " +
+			"you can add a symbol to the word to make &quot;houseonspooner#1500&quot;"
+	},
+
+	{
+		//2
+		question: "",
+		question2: "It's okay to share passwords with:",
+		answer: 8,
+		answers:
+		[
+			"Your boss",
+			"The hotel manager",
+			"Your coworker",
+			"None of the above",
+		],
+		remark: "If you share your password with anyone, not only is it a " +
+			"policy violation, but you also expose yourself and the company to " +
+			"significant risk. Think of your password like your signature. Sharing it " +
+			"with someone is like giving that person authority to sign your " +
+			"name/authority that implies you approve of everything they do in your name.<br>" +
+			"You are the only person responsiblefor all activities performed with your " +
+			"password."
+	},
+];
+
+fin_exam164 = [
+	{
+		//1
+		showResults: 1,
+		randQ: 1,
+		countQ: 3,
+		question: "",
+		question2: "You receive an email that notifies you about an open invoice. Attached is an executable (invoice.exe). What will you do?",
+		type: "radio",
+		answer: 2,
+		answers:
+		[
+			"I open the file to check if the invoice is really overdue",
+			"Opening a file with that extension is probably a scam - so I delete the mail",
+			"It might be a legitimate invoice - but to be on the safe side I scan the file with my antivirus before opening",
+			"I send back an E-Mail with my credit card number so they can pay the invoice directly"
+		],
+		remark: "An .exe file is potentially dangerous because it's a program that " +
+			"can do anything (within the limits of Windows' User Account Control " +
+			"feature). If you open a file with one of these file extensions, your " +
+			"computer could, without your continued permission, run one or more " +
+			"operations programmed into that file. Media files like .JPEG images and " +
+			".MP3 music files are not dangerous because they can't contain code. (There " +
+			"have been some cases where a maliciously crafted image or other media file " +
+			"can exploit a vulnerability in a viewer application, but these problems are " +
+			"rare and are patched quickly.)"
+	},
+
+	{
+		//2
+		question: "",
+		question2: "Which file types coming from an untrusted location can be considered safe to open if you are using patched (up-to-date) applications?",
+		type: "radio",
+		answer: 2,
+		answers:
+		[
+			"doc (Word Doc) & exe (Executable)",
+			"txt (Text File), jpg (Image)",
+			"docm (Word Doc with Macro), pdf (Portable Document Format)",
+			"None of the above"
+		],
+		remark: "You can tell if a file type is safe by assessing the file " +
+			"extension. A file extension is the three letters that follow the period at " +
+			"the end of the file name. Microsoft has classified several types of " +
+			"dangerous extensions; however, only a few are considered safe. These include, " +
+			"GIF, JPG/JPEG, TIF/TIFF, TXT, PDF, MPG/MPEG, MP3, and WAV. " +
+			"These extensions represent different file types and are the formats that the " +
+			"majority of Internet users tend to send as email attachments. The PDF file " +
+			"format offers a wide range of security benefits over standard Word " +
+			"Processing formats when it comes to security. An attacker can link a " +
+			"dangerous file within a PDF; however, the user must open it manually."
+	},
+
+	{
+		//3
+		question: "",
+		question2: "You receive an email with a Word document attachment from a sender you know. The document features a macro. Is it safe to activate it?",
+		type: "radio",
+		answer: 2,
+		answers:
+		[
+			"Yes, because I know the sender.",
+			"No – the macro could activate hidden malware.",
+			"It’s safe in any case, because our antivirus solution would have filtered the file otherwise.",
+			"Activating is safe as long as I don’t save the document."
+		],
+		remark: ""
+	},
+
+	{
+		//4
+		question: "",
+		question2: "In your opinion, what is the best way to pass on confidential information electronically?",
+		type: "radio",
+		answer: 4,
+		answers:
+		[
+			"Email is the only way I can use to hand over secret information directly to the recipient.",
+			"A PDF file makes the most sense.",
+			"Using strong encryption, I can secure the data or the entire email message.",
+			"I can save it on a USB stick and send it by courier."
+		],
+		remark: ""
+	},
+
+	{
+		//5
+		question: "",
+		question2: "Which of the following statements is incorrect regarding e-mail use?",
+		type: "radio",
+		answer: 4,
+		answers:
+		[
+			"Sender addresses may be forged; in case of doubt, a telephone check with the concerned customer or the specified sender provides clarification.",
+			"Messages of dubious origin are deleted immediately.",
+			//"Unencrypted messages can only be viewed and changed by anyone in external message traffic."
+			"The content of unencrypted e-mails can only be viewed by the sender and the recipient."
+		],
+		remark: ""
+	},
+
+	{
+		//6
+		question: "",
+		question2: 'If you receive an e-mail with the following subject line: "Congratulations, ' +
+			"you have won a week's holiday for two people in Italy." +
+			'"What do you do?',
+		type: "radio",
+		answer: 2,
+		answers:
+		[
+			"You are curious and open the e-mail.",
+			"You check whether you know the sender. If not, delete the e-mail unread.",
+			"You send the e-mail to the service desk.",
+			"You are happy about this and forward the e-mail to your partner and colleagues."
+		],
+		remark: ""
+	},
+
+	{
+		//7
+		question: "",
+		question2: "What are the options for sending confidential e-mails securely?",
+		type: "radio",
+		answer: 1,
+		answers:
+		[
+			"Documents can be encrypted using 7-Zip and the option AES-256  and then delivered to the recipient.",
+			"If I reply to a trustworthy sender, I can also attach confidential data to the mail.",
+			"E-mails do not have to be encrypted, as the communication cannot be read by third parties anyway.",
+			"All the answers are correct."
+		],
+		remark: ""
+	},
+
+	{
+		//8
+		question: "",
+		question2: "Which of the following measures will NOT find out if an e-mail is fake?",
+		type: "radio",
+		answer: 2,
+		answers:
+		[
+			"Doubtful e-mails by known senders must also be critically questioned. Often, a telephone " +
+			"enquiry helps or you can enter the e-mail address of the acquaintance yourself and start a " +
+			"corresponding enquiry.",
+			"The information in the e-mail signature (at the end of an e-mail) clearly indicates to me whether " +
+			"an e-mail is forged.",
+			"Contact the sender by telephone, though do not use the number provided in the message, but find " +
+			"it from a public directory or from the company's internal directory."
+		],
+		remark: ""
+	}
+];
+
+fin_exam244 = [
+	{
+		question: "OFFICE MACRO",
+		answer: 2,
+		img: "0244-macro.png"
+	},
+	{
+		question: "PDF attachment",
+		answer: 1,
+		img: "0244-pdf.png"
+	},
+	{
+		question: "Installer",
+		answer: 2,
+		img: "0244-program.png"
+	},
+	{
+		question: "Update software",
+		answer: 2,
+		img: "0244-player.png"
+	},
+	{
+		question: "Macro",
+		answer: 2,
+		img: "0244-word.jpg"
+	},
+];
+</script>

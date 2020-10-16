@@ -1,0 +1,120 @@
+﻿* {
+	margin:0; padding:0;
+	font-family:'Open Sans', sans-serif;
+	font-size:16px;
+	line-height:16px;
+	color:#424242;
+}
+
+html,body {
+	height:210mm;
+	width:297mm;
+}
+
+.upper { text-transform:uppercase; }
+
+.debug-scorm, .debug-wnd,
+.course header,
+.bot-buttons,
+.body_certificate .cont-form {
+	display:none;
+}
+
+.body_certificate  .cont {
+	position:relative;
+	width:1001px;
+    height:720px;
+	margin:0 auto;
+}
+
+.body_certificate span {
+	font:inherit;
+	color:inherit;
+}
+
+.body_certificate div.cert-top-logo {
+	padding:20px 40px 0 40px;
+	text-align:center;
+}
+
+.body_certificate div.cert-top-logo img {
+	height:72px;
+	margin-top:20px;
+}
+
+.body_certificate h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+	line-height:44px;
+    padding-top:55px;
+    padding-bottom:45px;
+	height:44px;
+}
+
+.body_certificate h2, h6 {
+    font-weight: normal;
+    font-size:26px;
+	line-height:28.6px;
+    text-align: center;
+    font-style: italic;
+    padding:16px 0;
+	height:29px;
+}
+
+.body_certificate h3 {
+    font-weight: bold;
+    font-size:26px;
+	line-height:28.6px;
+    text-align: center;
+	height:29px;
+}
+
+.body_certificate h4 {
+    font-weight: normal;
+    font-size:32px;
+	line-height:35.2px;
+	height:35px;
+    text-align: center;
+	padding-bottom:20px;
+}
+
+.body_certificate h5 {
+    font-weight: normal;
+    font-size:24px;
+	line-height:26.4px;
+	height:26px;
+    text-align: center;
+    padding: 16px 0 0 0;
+}
+
+.body_certificate h5 strong {
+    font-weight: bold;
+    font-size:24px;
+    text-align: center;
+}
+.body_certificate h5 span.score {
+	font-weight:bold;
+	font-size:24px;
+}
+
+.body_certificate div.cert-bottom-logo {
+	padding:20px 40px 0 40px;
+	text-align:center;
+}
+
+.body_certificate div.cert-bottom-logo img {
+	height:42px;
+}
+
+.body_certificate  .cont .bot-but {
+	display:none;
+}
+
+.body_certificate  .cont .bgimage {
+	position:absolute;
+	top:0; left:0;
+	text-align:center;
+}
+
+.body_certificate  .cont .bgimage img { height:710px; }

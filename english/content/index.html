@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" />
+	<title>Security Awareness Course</title>
+	<meta content="" name="description" /><meta content="" name="author" /><meta content="width=1024" name="viewport">
+	<link href="static/flowplayer6/skin/minimalist.css" media="screen" rel="stylesheet" />
+	<link href="static/fonts/noto-sans.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/slick/slick-theme.css" media="screen" rel="stylesheet" />
+	<link href="static/slick/slick.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/tips/tips.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/magnify/magnify.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/css/style.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/css/chapter-book.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/css/menu.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/exam/fin-exam.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/css/certificate.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/css/print.css" media="print" rel="stylesheet" />
+	<link href="static/lessons/lesson10.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson14.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson30.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson40.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson50.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson60.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson70.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson80.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson90.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson100.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/phish-quiz/quiz.css" media="screen" rel="stylesheet" />
+	<link href="static/lessons/lesson120.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson140.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson145.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson160.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson164.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson180.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson200.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson220.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson240.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson260.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/lessons/lesson280.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="static/img/favicon.png" rel="shortcut icon" type="image/png" />
+	<link href="static/img/favicon.png" rel="icon" type="image/png" />
+</head>
+<body class="no-debug">
+<div class="fixed-loader"><img src="static/img/loader.gif" /></div>
+
+<div class="debug-wnd">Debug<br />
+Page: <input name="lesson_n" type="text" /><button onclick="Course.b_lesson_go()">GO</button><br />
+Fragm: <span class="lesson_fr">-</span>
+
+<div class="state"></div>
+
+<div class="debug-scorm"></div>
+</div>
+
+<div class="course">
+<div class="wrap-course">
+<header>
+<div class="logo"></div>
+
+<nav class="dws-menu menu-en">
+<ul>
+	<li><a class="ah" href="#">Menu</a>
+
+	<ul>
+		<li><a href="javascript:Lesson20.next(0)"><span>INTRODUCTION</span></a></li>
+		<li class="lesx les50 disabled"><a href="javascript:Lesson50.next(0)"><span>LESSON 1 &ndash; SOCIAL ENGINEERING ATTACKS</span></a>
+		<ul>
+			<li class="les800"><a href="javascript:Lesson800.next(0)"><span>PHISHING</span></a>
+			<ul>
+				<li class="les801"><a href="javascript:Lesson800.next(0)"><span>Explainer video</span></a></li>
+				<li class="les820"><a href="javascript:Lesson820.next(0)"><span>Phishing types</span></a></li>
+				<li class="les830"><a href="javascript:Lesson830.next(0)"><span>What to look for</span></a></li>
+				<li class="les840"><a href="javascript:Lesson840.next(0)"><span>Understand domains</span></a></li>
+				<li class="les900"><a href="javascript:Lesson900.next(0)"><span>TIPS</span></a></li>
+				<li class="les1000"><a href="javascript:Lesson1000.next(0)"><span>COMPREHENSION CHALLENGE</span></a>
+				<ul>
+					<li class="les101"><a href="javascript:Lesson101.next(0)"><span>PHISHING</span></a></li>
+					<li class="les102"><a href="javascript:Lesson102.next(0)"><span>DOMAINS</span></a></li>
+				</ul>
+				</li>
+			</ul>
+			</li>
+			<li class="les620"><a href="javascript:Lesson620.next(0)"><span>VISITORS</span></a></li>
+			<li class="les630"><a href="javascript:Lesson630.next(0)"><span>BAITING</span></a>
+			<ul>
+				<li class="les730"><a href="javascript:Lesson730.next(0)"><span>COMPREHENSION CHALLENGE</span></a></li>
+			</ul>
+			</li>
+			<li class="les640"><a href="javascript:Lesson640.next(0)"><span>SHOULDER SURFING</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les120 disabled"><a href="javascript:Lesson120.next(0)"><span>LESSON 2 &ndash; PHYSICAL SECURITY</span></a>
+		<ul>
+			<li class="les121"><a href="javascript:Lesson121.next(0)"><span>Explainer video</span></a></li>
+			<li class="les122"><a href="javascript:Lesson122.next(0)"><span>Clean Desk Policy</span></a></li>
+			<li class="les123"><a href="javascript:Lesson123.next(0)"><span>HANDLING SENSITIVE INFORMATION</span></a></li>
+			<li class="les124"><a href="javascript:Lesson124.next(0)"><span>VULNERABILITIES CHALLENGE</span></a></li>
+			<li class="les125"><a href="javascript:Lesson125.next(0)"><span>RISKS CHALLENGE</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les130 disabled"><a href="javascript:Lesson130.next(0)"><span>LESSON 3 &ndash; PASSWORD SECURITY</span></a>
+		<ul>
+			<li class="les141"><a href="javascript:Lesson141.next(0)"><span>Explainer video</span></a></li>
+			<li class="les142"><a href="javascript:Lesson142.next(0)"><span>Why and how hackers go after passwords</span></a></li>
+			<li class="les143"><a href="javascript:Lesson143.next(0)"><span>PASSWORD MANAGER &amp; 2FA</span></a></li>
+			<li class="les144"><a href="javascript:Lesson144.next(0)"><span>Password Security Tips</span></a></li>
+			<li class="les145"><a href="javascript:Lesson145.next(0)"><span>COMPREHENSION CHALLENGE</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les150 disabled"><a href="javascript:Lesson150.next(0)"><span>LESSON 4 &ndash; EMAIL SECURITY</span></a>
+		<ul>
+			<li class="les161"><a href="javascript:Lesson161.next(0)"><span>Explainer video</span></a></li>
+			<li class="les1620"><a href="javascript:Lesson1620.next(0)"><span>Threats</span></a>
+			<ul>
+				<li class="les1621"><a href="javascript:Lesson1621.next(0)"><span>EMAIL ATTACKS AGAINST THE USER</span></a></li>
+				<li class="les1622"><a href="javascript:Lesson1622.next(0)"><span>UNINTENTIONAL ACTS BY AUTHORIZED USERS</span></a></li>
+			</ul>
+			</li>
+			<li class="les163"><a href="javascript:Lesson163.next(0)"><span>TIPS</span></a></li>
+			<li class="les164"><a href="javascript:Lesson164.next(0)"><span>COMPREHENSION CHALLENGE</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les170 disabled"><a href="javascript:Lesson170.next(0)"><span>LESSON 5 &ndash; SECURE INTERNET USAGE</span></a>
+		<ul>
+			<li class="les181"><a href="javascript:Lesson181.next(0)"><span>TIPS</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les190 disabled"><a href="javascript:Lesson190.next(0)"><span>LESSON 6 &ndash; SECURE SOCIAL MEDIA USAGE</span></a>
+		<ul>
+			<li class="les201"><a href="javascript:Lesson201.next(0)"><span>Risks</span></a></li>
+			<li class="les202"><a href="javascript:Lesson202.next(0)"><span>TIPS</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les210 disabled"><a href="javascript:Lesson210.next(0)"><span>LESSON 7 &ndash; USING PUBLIC WI-FI&rsquo;s</span></a>
+		<ul>
+			<li class="les221"><a href="javascript:Lesson221.next(0)"><span>Risks</span></a></li>
+			<li class="les222"><a href="javascript:Lesson222.next(0)"><span>TIPS</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les230 disabled"><a href="javascript:Lesson230.next(0)"><span>LESSON 8 &ndash; MALWARE</span></a>
+		<ul>
+			<li class="les243"><a href="javascript:Lesson243.next(0)"><span>Movie</span></a></li>
+			<li class="les241"><a href="javascript:Lesson241.next(0)"><span>Types of malware</span></a></li>
+			<li class="les242"><a href="javascript:Lesson242.next(0)"><span>Prevention</span></a></li>
+			<li class="les244"><a href="javascript:Lesson244.next(0)"><span>COMPREHENSION CHALLENGE</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les250 disabled"><a href="javascript:Lesson250.next(0)"><span>LESSON 9 &ndash; SECURITY INCIDENTS</span></a>
+		<ul>
+			<li class="les261"><a href="javascript:Lesson261.next(0)"><span>TIPS</span></a></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><a class="ah" href="javascript:Lesson14.next(0)">Glossary</a></li>
+</ul>
+</nav>
+
+<nav class="dws-menu menu-de">
+<ul>
+	<li><a class="ah" href="#">Menu</a>
+
+	<ul>
+		<li><a href="javascript:Lesson20.next(0)"><span>EINF&Uuml;HRUNG</span></a></li>
+		<li class="lesx les50 disabled"><a href="javascript:Lesson50.next(0)"><span>LEKTION 1 - SOCIAL ENGINEERING ATTACKS</span></a>
+		<ul>
+			<li class="les800"><a href="javascript:Lesson800.next(0)"><span>PHISHING</span></a>
+			<ul>
+				<li class="les801"><a href="javascript:Lesson800.next(0)"><span>ERKL&Auml;RUNGSVIDEO</span></a></li>
+				<li class="les820"><a href="javascript:Lesson820.next(0)"><span>PHISHING-ARTEN</span></a></li>
+				<li class="les830"><a href="javascript:Lesson830.next(0)"><span>WORAUF MUSS MAN ACHTEN?</span></a></li>
+				<li class="les840"><a href="javascript:Lesson840.next(0)"><span>Dom&auml;nen VERSTEHEN</span></a></li>
+				<li class="les900"><a href="javascript:Lesson900.next(0)"><span>TIPPS</span></a></li>
+				<li class="les1000"><a href="javascript:Lesson1000.next(0)"><span>QUIZ</span></a>
+				<ul>
+					<li class="les101"><a href="javascript:Lesson101.next(0)"><span>PHISHING</span></a></li>
+					<li class="les102"><a href="javascript:Lesson102.next(0)"><span>Dom&auml;nen</span></a></li>
+				</ul>
+				</li>
+			</ul>
+			</li>
+			<li class="les620"><a href="javascript:Lesson620.next(0)"><span>BESUCHER</span></a></li>
+			<li><a href="javascript:Lesson630.next(0)"><span>BAITING</span></a>
+			<ul>
+				<li class="les730"><a href="javascript:Lesson730.next(0)"><span>QUIZ</span></a></li>
+			</ul>
+			</li>
+			<li class="les640"><a href="javascript:Lesson640.next(0)"><span>SCHULTER SURFEN</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les120 disabled"><a href="javascript:Lesson120.next(0)"><span>LEKTION 2 &ndash; PHYSISCHE SICHERHEIT</span></a>
+		<ul>
+			<li class="les121"><a href="javascript:Lesson121.next(0)"><span>ERKL&Auml;RUNGSVIDEO</span></a></li>
+			<li class="les122"><a href="javascript:Lesson122.next(0)"><span>Clean Desk Politik</span></a></li>
+			<li class="les123"><a href="javascript:Lesson123.next(0)"><span>Umgang mit sensiblen Informationen</span></a></li>
+			<li class="les124"><a href="javascript:Lesson124.next(0)"><span>QUIZ 1</span></a></li>
+			<li class="les125"><a href="javascript:Lesson125.next(0)"><span>QUIZ 2</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les130 disabled"><a href="javascript:Lesson130.next(0)"><span>LEKTION 3 &ndash; Passwort-Sicherheit</span></a>
+		<ul>
+			<li class="les141"><a href="javascript:Lesson141.next(0)"><span>ERKL&Auml;RUNGSVIDEO</span></a></li>
+			<li class="les142"><a href="javascript:Lesson142.next(0)"><span>WIESO UND WIE KOMMEN HACKER ZU DEN PASSW&Ouml;RTERN?</span></a></li>
+			<li class="les143"><a href="javascript:Lesson143.next(0)"><span>PASSWORT MANAGER &amp; 2FA</span></a></li>
+			<li class="les144"><a href="javascript:Lesson144.next(0)"><span>PASSWORT TIPPS</span></a></li>
+			<li class="les145"><a href="javascript:Lesson145.next(0)"><span>AUFGABE</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les150 disabled"><a href="javascript:Lesson150.next(0)"><span>LEKTION 4 &ndash; EMAIL SICHERHEIT</span></a>
+		<ul>
+			<li class="les161"><a href="javascript:Lesson161.next(0)"><span>ERKL&Auml;RUNGSVIDEO</span></a></li>
+			<li class="les1620"><a href="javascript:Lesson1620.next(0)"><span>BEDROHUNGEN</span></a>
+			<ul>
+				<li class="les1621"><a href="javascript:Lesson1621.next(0)"><span>EMAIL-ANGRIFF GEGEN DEN NUTZER</span></a></li>
+				<li class="les1622"><a href="javascript:Lesson1622.next(0)"><span>UNBEABSICHTIGTE AKTIONEN VON <br>&nbsp;&nbsp;&nbsp;&nbsp;AUTORISIERTEN NUTZERN</span></a></li>
+			</ul>
+			</li>
+			<li class="les163"><a href="javascript:Lesson163.next(0)"><span>TIPPS</span></a></li>
+			<li class="les164"><a href="javascript:Lesson164.next(0)"><span>AUFGABE</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les170 disabled"><a href="javascript:Lesson170.next(0)"><span>LEKTION 5 &ndash; SICHERE INTERNETNUTZUNG</span></a>
+		<ul>
+			<li class="les181"><a href="javascript:Lesson181.next(0)"><span>TIPPS</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les190 disabled"><a href="javascript:Lesson190.next(0)"><span>LEKTION 6 &ndash; SICHERE VERWENDUNG <br>&nbsp;&nbsp;&nbsp;&nbsp;VON SOZIALEN NETZWERKEN</span></a>
+		<ul>
+			<li class="les201"><a href="javascript:Lesson201.next(0)"><span>RISIKEN</span></a></li>
+			<li class="les202"><a href="javascript:Lesson202.next(0)"><span>TIPPS</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les210 disabled"><a href="javascript:Lesson210.next(0)"><span>LEKTION 7 &ndash; USING PUBLIC WI-FI&rsquo;s</span></a>
+		<ul>
+			<li class="les221"><a href="javascript:Lesson221.next(0)"><span>RISIKEN</span></a></li>
+			<li class="les222"><a href="javascript:Lesson222.next(0)"><span>TIPPS</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les230 disabled"><a href="javascript:Lesson230.next(0)"><span>LEKTION 8 &ndash; MALWARE</span></a>
+		<ul>
+			<li class="les243"><a href="javascript:Lesson243.next(0)"><span>ERKL&Auml;RUNGSVIDEO</span></a></li>
+			<li class="les241"><a href="javascript:Lesson241.next(0)"><span>ARTEN VON MALWARE</span></a></li>
+			<li class="les242"><a href="javascript:Lesson242.next(0)"><span>PR&Auml;VENTION</span></a></li>
+			<li class="les244"><a href="javascript:Lesson244.next(0)"><span>AUFGABE</span></a></li>
+		</ul>
+		</li>
+		<li class="lesx les250 disabled"><a href="javascript:Lesson250.next(0)"><span>LEKTION 9 &ndash; SICHERHEITSVORF&Auml;LLE</span></a>
+		<ul>
+			<li class="les261"><a href="javascript:Lesson261.next(0)"><span>TIPPS</span></a></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><a class="ah" href="javascript:Lesson14.next(0)">W&ouml;rterverzeichnis</a></li>
+</ul>
+</nav>
+
+<div class="close-but close-but-de"><a href="javascript:closeCourse()"><span class="x">&times;</span><span class="t">Beenden</span></a></div>
+
+<div class="close-but close-but-en"><a href="javascript:closeCourse()"><span class="x">&times;</span><span class="t">Close</span></a></div>
+
+<div class="lesson-info-block">
+	<div class="lesson-progress" id="lessonProgressPercent">
+		<p></p>
+	</div>
+	<div class="curr-card-name"><!--You are viewing the learning card--><span>&nbsp;</span> <img src="static/lessons/card0.png" /></div>
+</div>
+
+<div id="progressBar">
+	<div class="progress-bar-point active" id="progress-bar-start-point"></div>
+	<div class="progress-bar-point-connector-line active"></div>
+	<div class="progress-bar-point active">
+		<p class="progress-bar-point-text">1</p>
+	</div>
+	<div class="progress-bar-point-connector-line"></div>
+	<div class="progress-bar-point" id="progress-bar-end-point"></div>
+</div>
+
+<div class="clear"></div>
+</header>
+
+<section class="holder">
+<div class="lesson lesson10" id="lesson10">
+<div class="lesson-body">
+<div class="bg abs"><img src="static/lessons/start-page.png" /></div>
+
+<div class="pop-msg">
+<h1 class="upper">security awareness course</h1>
+
+<h2 class="upper">Please choose your language</h2>
+<button class="but-lang" onclick="Lesson10.lang(0)"><img src="static/lessons/0010-lang-en.png" /></button><button class="but-lang" onclick="Lesson10.lang(1)"><img src="static/lessons/0010-lang-de.png" /></button>
+
+<div class="progress">
+<div class="line"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="grey-bg"></div>
+</div>
+</div>
+<script>
+/* without last '/' */
+var pathStatic = "static";
+</script><script type="text/javascript" src="static/js/jquery-3.3.1.min.js"></script><script type="text/javascript" src="static/js/jquery-ui.min.js"></script><script type="text/javascript" src="static/js/jquery.ui.touch-punch.min.js"></script><script type="text/javascript" src="static/flowplayer6/flowplayer.min.js"></script><script type="text/javascript" src="static/slick/slick.js"></script><script type="text/javascript" src="static/magnify/jquery.magnify.js"></script><script type="text/javascript" src="static/js/course.js"></script><script type="text/javascript" src="static/js/ext.js"></script><script type="text/javascript" src="static/js/preloader.js"></script><script type="text/javascript" src="static/js/lesson10.js"></script><script type="text/javascript" src="static/js/lesson14.js"></script><script type="text/javascript" src="static/js/lesson50.js"></script><script type="text/javascript" src="static/js/lesson60.js"></script><script type="text/javascript" src="static/js/lesson70.js"></script><script type="text/javascript" src="static/js/lesson80.js"></script><script type="text/javascript" src="static/js/lesson90.js"></script><script type="text/javascript" src="static/js/lesson100.js"></script><script type="text/javascript" src="static/phish-quiz/init.js"></script><script type="text/javascript" src="static/phish-quiz/quiz.js"></script><script type="text/javascript" src="static/js/lesson120.js"></script><script type="text/javascript" src="static/js/lesson140.js"></script><script type="text/javascript" src="static/js/lesson144.js"></script><script type="text/javascript" src="static/js/lesson145.js"></script><script type="text/javascript" src="static/js/lesson160.js"></script><script type="text/javascript" src="static/js/lesson164.js"></script><script type="text/javascript" src="static/js/lesson180.js"></script><script type="text/javascript" src="static/js/lesson200.js"></script><script type="text/javascript" src="static/js/lesson220.js"></script><script type="text/javascript" src="static/js/lesson240.js"></script><script type="text/javascript" src="static/js/lesson244.js"></script><script type="text/javascript" src="static/js/lesson260.js"></script><script type="text/javascript" src="static/js/lesson280.js"></script></body>
+</html>

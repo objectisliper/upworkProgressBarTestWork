@@ -1,0 +1,109 @@
+﻿<div class="lesson lesson280" id="lesson280">
+	<div class="lesson-body">
+		<h1 class="upper">KURS ZUM THEMA IT-SICHERHEIT</h1>
+
+		<div class="row">
+			<div class="col-md-5 col-img col-ok">
+				<img class="is_sam" src="static/lessons/man.png">
+				<img class="is_sue" src="static/lessons/woman.png">
+			</div>
+			<div class="col-md-6 col-ok col-ok-txt">
+				<h3>Herzlichen Glückwunsch!</h3>
+				<p>Du hast dieses E-Learning-Modul erfolgreich abgeschlossen.</p>
+				
+				<p class="total_cards bold">
+					Karten: <span class="n_cards accent-b">&nbsp;</span>
+				</p>
+				<p class="total_score bold">
+					Erreichte Punkte: <span class="n_score accent-b">&nbsp;</span>
+				</p>
+				<p class="max_punkts bold">Maximale Punkte: <span>100</span></p>
+				<p class="level bold">
+					Dein Level:
+					<span class="l1 accent-b">Nicht bestanden</span>
+					<span class="l2 accent-b">Professionell</span>
+					<span class="l3 accent-b">Experte</span>
+				</p>
+
+				<!--p>Danke für Ihre Aufmerksamkeit!</p-->
+				<p>&nbsp;</p>
+				<p>
+					Bei Fragen oder Problemen mit dem Trainingsmodul wendet Euch bitte an
+					das IT Security Team. 
+				</p>
+				<p>&nbsp;</p>
+				
+				<p class="bot-buttons">
+					<button onclick="Lesson281.next(0)">Kurszertifikat drucken</button>
+				</p>
+			</div>
+			
+			<div class="col-md-5 col-img col-bad">
+				<img class="is_sam" src="static/lessons/man-sad.png">
+				<img class="is_sue" src="static/lessons/woman-sad.png">
+			</div>
+			<div class="col-md-6 col-bad col-bad-txt">
+				<h3>Du hast noch nicht alle Lernschritte abgeschlossen</h3>
+
+				<p class="total_cards bold">
+					Karten: <span class="n_cards accent-b">&nbsp;</span>
+				</p>
+				<p class="total_score bold">
+					Erreichte Punkte: <span class="n_score accent-b">&nbsp;</span>
+					<span>(mindestens 60 Punkte sind erforderlich)</span>
+				</p>
+				<p class="max_punkts bold">Maximale Punkte: <span>100</span></p>
+				<p class="level bold">
+					Dein Level:
+					<span class="l1 accent-b">Nicht bestanden</span>
+				</p>
+				<p>&nbsp;</p>
+				<p>
+					Bei Fragen oder Problemen mit dem Trainingsmodul wendet Euch bitte an
+					das IT Security Team. 
+				</p>
+				<p>&nbsp;</p>
+				<p class="bot-buttons">
+					<button onclick="Lesson20.next(0)">KURS NEU STARTEN</button>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="bot-buttons">
+		<button class="b-xx-close right" onclick="closeCourse()">KURS SCHLIEßEN</button>
+		<button class="b-xx-prev right" onclick="Lesson280.back()">ZURÜCK</button>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="lesson lesson281" id="lesson281">
+	<div class="lesson-body body_certificate">
+		<div class="cont-form">
+			<div></div>
+			<h2>Sie haben den Kurs abgeschlossen</h2>
+			<h4 class="upper">Sicherheit Mitarbeitersensibilisierungs-Kurs </h4>
+			<h5>Bitte geben Sie Ihren Namen ein:</h5>
+			<input id="fullname" type="text" /><input id="submitfullname" onclick="return Lesson281.SubmitFullName();" type="submit" value="Senden" />
+		</div>
+
+		<div class="cont">
+			<div class="bgimage"><img src="static/img/Certificate_prn.png" /></div>
+			<div class="cert-top-logo"><img src="static/img/logo-grey.png" /></div>
+
+			<h1>Kurszertifikat</h1>
+			<h2>Wir bestätigen, dass</h2>
+			<h3 id="cert-fullname"></h3>
+			<h4>abgeschlossen hat</h4>
+			<h2 class="upper">KURS ZUM THEMA IT-SICHERHEIT</h2>
+			<h5>Ergebnis: <span class="score">&nbsp;</span></h5>
+			<h6>am <span id="cert-date">&nbsp;</span> um <span id="cert-time">&nbsp;</span></h6>
+
+			<div class="cert-bottom-logo"><img src="static/img/logo-grey.png" /></div>
+			<div class="bot-buttons">
+				<button class="b-xx-print" onclick="Lesson281.printCert()">Kurszertifikat drucken</button>
+				<button class="b-xx-close" onclick="window.location.reload()">KURS SCHLIEßEN</button>
+			</div>
+		</div>
+	</div>
+</div>

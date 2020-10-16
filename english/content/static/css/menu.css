@@ -1,0 +1,254 @@
+nav.dws-menu {
+	display:none;
+	float:left;
+	margin:9px 0 0 20px;
+	position:relative;
+	z-index:105;
+}
+
+.dws-menu * {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+	list-style:none;
+}
+
+.dws-menu > ul {
+	display:block;
+}
+.dws-menu > ul > li { /* horizontal items */
+	float:left;
+}
+
+.dws-menu > ul li {
+	position: relative;
+}
+
+.dws-menu > ul li a {
+	display: block;
+	background:#e1e1e1;
+	padding:10px 16px;
+	font-size:16px;
+	font-weight:700;
+	color: #454547;
+	text-decoration: none;
+	text-transform:uppercase;
+	border:1px solid transparent;
+}
+
+.dws-menu ul li.disabled {
+	pointer-events:none;
+}
+
+.dws-menu > ul li.disabled a {
+	pointer-events:none;
+	background:#ececec;
+	color:#888;
+}
+
+.dws-menu li a:hover {
+	background:rgb(80,80,80);
+	color:#ffffff;
+}
+
+.dws-menu li a.ah:hover { /* horizontal item */
+	background:#fff;
+	color:#454547;
+	border-color:rgb(202,202,202);
+}
+
+/*sub menu*/
+.dws-menu li ul{
+	position: absolute;
+	width:auto;
+	display: none;
+}
+.dws-menu li > ul li{
+	border: 1px solid #c7c8ca;
+}
+
+.dws-menu li > ul li a{
+	padding:10px 0;
+	text-transform: none;
+	background: #e4e4e5;
+	white-space:nowrap;
+
+	display:inline-block;
+	width:100%;
+}
+
+.dws-menu li > ul li a span {
+	padding:0 56px 0 16px;
+	color:inherit;
+}
+
+.dws-menu span { text-transform:uppercase; }
+
+.dws-menu li:hover > ul {
+	display:block;
+}
+
+.dws-menu li ul li:hover > ul {
+	display:inline-block;
+}
+
+/* li-icons */
+.dws-menu li.part:after {
+	display:block;
+	content:'';
+	position:absolute;
+	width:30px; height:30px;
+	z-index:1000;
+	background-image:url(../lessons/card-progress.png);
+	background-repeat:no-repeat;
+	background-size:30px 30px;
+	background-position:right 0px;
+	right:5px;
+	bottom:8px;
+}
+.dws-menu li.full:after {
+	display:block;
+	content:'';
+	position:absolute;
+	width:30px; height:30px;
+	z-index:1000;
+	background-image:url(../lessons/card-check.png);
+	background-repeat:no-repeat;
+	background-size:30px 30px;
+	background-position:right 0px;
+	right:5px;
+	bottom:8px;
+}
+
+.course header div.logo {
+	float:left;
+	margin-left:20px;
+}
+.course header div.logo {
+	height:50px;
+	width: 54px;
+	mask-image: url(../img/logo-grey.png);
+	background-color: #ece7e4;
+	-webkit-mask-image: url(../img/logo-grey.png);
+	margin-top:5px;
+}
+
+
+.course header div.curr-card-name {
+	display:none;
+	text-align:right;
+	font-size:14px;
+	color: #ece7e4;
+	position: absolute;
+	z-index: 1000;
+	right: 0;
+	background-color: #6e5c5e;
+	border: 3px solid #65b8c0;
+	border-top: 0;
+	padding: 0 10px;
+	width: max-content;
+}
+
+.lesson-info-block {
+	float:right;
+	width:330px;
+	position: relative;
+}
+
+.lesson-progress {
+	text-align: revert;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+	height: 24px;
+}
+
+.lesson-progress p {
+	color: #ece7e4;
+	padding-bottom: 0;
+}
+
+.course header div.curr-card-name span {
+	color: #ece7e4;
+}
+.course header div.curr-card-name span { font-size:14px; }
+.course header div.curr-card-name img {
+	display:inline-block;
+	vertical-align:middle;
+	height:35px;
+}
+
+#progressBar {
+	display: none;
+	float: left;
+	height: 40px;
+	width: 280px;
+	margin: 10.5px 10px;
+	align-items: center;
+}
+
+.progress-bar-point {
+	background-color: #ece7e4;
+	height: 8px;
+	width: 8px;
+	border-radius: 8px;
+}
+
+.progress-bar-point-text {
+	color: #ece7e4;
+	margin-top: -22px;
+	font-weight: 600;
+}
+
+.progress-bar-point.active {
+	background-color: #1cc8ec;
+}
+
+.progress-bar-point-connector-line {
+	height: 4px;
+	background-color: #ece7e4;
+}
+
+.progress-bar-point-connector-line.active {
+	background-color: #1cc8ec;
+}
+
+.course header div.close-but {
+	float:right;
+	margin-top:12px;
+	display:none;
+}
+
+.course header div.close-but a {
+	display:block;
+	line-height:24px;
+	padding:7px 10px;
+	border:1px solid transparent;
+	text-decoration:none;
+	margin-right:10px;
+}
+.course header div.close-but a:hover {
+	background-color:#fff;
+	border-color:rgb(202,202,202);
+}
+
+.course header div.close-but span.x {
+	font-size:27px;
+	vertical-align:top;
+	margin-top:-1px;
+	display:inline-block;
+}
+.course header div.close-but span.t {
+	font-size:16px;
+	line-height:24px;
+	color:#ece7e4;
+	vertical-align:top;
+	display:inline-block;
+}
+.course header div.close-but span.x {
+	color:#ece7e4;
+}

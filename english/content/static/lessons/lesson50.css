@@ -1,0 +1,72 @@
+﻿#lesson50 {
+	display:none;
+}
+
+/*
+#lesson50 .page-book,
+#lesson50 .page-chapter {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:667px;
+	padding:15px;
+}
+*/
+
+#lesson50 .bg {
+	position:absolute;
+	top:110px; left:0px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson50 .bg img.floor {
+	position:absolute;
+	top:-162px; left:0;
+}
+#lesson50 .bg img.people {
+	position:absolute;
+	top:107px; right:77px;
+	width:700px;
+}
+#lesson50 .bg img.board {
+	position:absolute;
+	top:-12px; left:210px;
+	width:807px; height:489px;
+}
+
+#lesson50 .bg img.is_sue {
+	position:absolute;
+	top:31px; left:0px;
+	height:530px;
+}
+
+#lesson50 .bg img.is_sam {
+	position:absolute;
+	top:44px; left:0px;
+	height:506px;
+}
+
+#lesson50 .bg div.intro {
+	position:absolute;
+	top:41px; left:286px;
+	width:659px; height:354px;
+	background-color:#fff;
+	padding:15px;
+}
+
+#lesson50 .intro a {
+	cursor:pointer;
+}
+#lesson50 .intro a img {
+	opacity:0.85;
+}
+#lesson50 .intro a:hover img {
+	opacity:1;
+}
+
+#lesson50 .videoplayer {
+	position:absolute;
+	top:55px; left:111px;
+	width:794px; height:450px;
+}

@@ -1,0 +1,281 @@
+﻿#lesson90,
+#lesson91,
+#lesson92,
+#lesson93,
+#lesson94,
+#lesson900 {
+	display:none;
+}
+
+#lesson90 .bg {
+	position:absolute;
+	top:100px; left:0;
+	text-align:left;
+	width:1016px;
+	height:567px;
+	overflow:hidden;
+}
+
+#lesson90 .bg img.is_sue,
+#lesson90 .bg img.is_sam {
+	width:1065px;
+	height:567px;
+}
+
+#lesson90 .txt {
+	padding-top:25px;
+}
+
+#lesson90 .bg div.intro {
+	position:absolute;
+	top:68px; left:116px;
+	width:765px; height:432px;
+	background-color:#808080;
+}
+#lesson90 .bg div.intro p {
+	color:#fff;
+	padding:30px 25px 0 0;
+	font-size:20px;
+	line-height:30px;
+}
+
+#lesson90 .bg div.intro img {
+	float:left;
+	margin:20px;
+	width:485px;
+}
+
+
+/* tips */
+#lesson91 .tip,
+#lesson92 .tip,
+#lesson93 .tip,
+#lesson94 .tip {
+	height:548px; width:1016px;
+	top:105px; left:0;
+}
+
+#lesson91 .tip .tipbg,
+#lesson92 .tip .tipbg,
+#lesson93 .tip .tipbg,
+#lesson94 .tip .tipbg {
+	left:0; top:0; z-index: 1;
+}
+
+#lesson91 .tip .tipn,
+#lesson92 .tip .tipn,
+#lesson93 .tip .tipn,
+#lesson94 .tip .tipn {
+	background-size:cover;
+	z-index:10;
+}
+
+#lesson91 .tip .ltext,
+#lesson92 .tip .ltext,
+#lesson93 .tip .ltext,
+#lesson94 .tip .ltext {
+	top:22px; left:35px;
+	width:942px;
+	z-index:1;
+}
+
+#lesson91 .tip .ltext p,
+#lesson92 .tip .ltext p,
+#lesson93 .tip .ltext p.ltitle,
+#lesson94 .tip .ltext p {
+	font-weight:bold;
+	line-height:25px;
+	padding-left:107px;
+}
+
+#lesson91 .tip .rtext,
+#lesson92 .tip .rtext,
+#lesson93 .tip .rtext,
+#lesson94 .tip .rtext {
+	line-height:50px;
+	font-weight:bold;
+	color:#fff;
+	z-index:1;
+
+	left:651px; top:190px;
+	width:301px;
+	font-size:30px;
+	line-height:40px;
+}
+
+#lesson91 .tip1 .zimg,
+#lesson92 .tip2 .zimg,
+#lesson93 .tip3 .zimg,
+#lesson94 .tip4 .zimg {
+	position:absolute;
+	top:66px; left:54px;
+}
+
+/* tip1 */
+#lesson91 .tip1 .tipn { background-image:url(0090-tip1.png); }
+
+#lesson91 .zimg .img1 { width:800px; }
+
+#lesson91 .img1paypal {
+	position:absolute;
+	left:309px;
+	top:95px;
+	overflow:hidden;
+	width:387px;
+	height:169px;
+}
+#lesson91 .img1paypal img {
+	width:393px; height:235px;
+	top:0; left:0;
+}
+
+#lesson91 .img1paypaul {
+	position:absolute;
+	left:391px;
+	top:32px;
+	overflow:hidden;
+	width:305px;
+	height:228px;
+}
+#lesson91 .img1paypaul img {
+	width:393px; height:235px;
+	top:0; left:0;
+}
+
+#lesson91 .img1http {
+	position:absolute;
+	top:39px; left:450px;
+	width:217px; height:24px;
+	background-image:url(0091-anim1-http.png);
+	background-repeat:no-repeat;
+	animation: sprite_91http 0.4s steps(2) infinite;
+	overflow:hidden;
+}
+
+@keyframes sprite_91http {
+	from { background-position: 0 0px; }
+	to { background-position: 0 -48px; }
+}
+
+#lesson91 .img1https {
+	position:absolute;
+	top:102px; left:370px;
+	width:217px; height:24px;
+	background-image:url(0091-anim1-https.png);
+	background-repeat:no-repeat;
+	animation: sprite_91http 0.4s steps(2) infinite;
+	overflow:hidden;
+}
+
+#lesson91 .img1arr {
+	position:absolute;
+	left:335px;
+	top:74px;
+}
+
+/* tip2 */
+#lesson92 .tip2 .tipn { background-image:url(0090-tip2.png); }
+
+#lesson92 .zimg .img2 { width:800px; }
+
+#lesson92 .img2cur {
+	position:absolute;
+	left:179px;
+	top:76px;
+}
+#lesson92 .img2link {
+	position:absolute;
+	left:339px;
+	top:150px;
+}
+
+/* tip3 */
+#lesson93 .tip3 .tipn { background-image:url(0090-tip3.png); }
+
+#lesson93 .tip .rtext {
+	top:149px;
+}
+
+#lesson93 .zimg .img3 { width:800px; }
+
+#lesson93 .img3virus {
+	position:absolute;
+	top:208px;
+	left:413px;
+}
+
+#lesson93 .img3varr {
+	display:block;
+	position:absolute;
+	width:28px;
+	height:36px;
+	top:215px;
+	left:421px;
+	background:url(0093-anim3-varr.png) repeat;
+	animation: sprite_93varr 1s steps(38) infinite;
+	overflow:hidden;
+}
+
+@keyframes sprite_93varr {
+	from { background-position: 0 0px; }
+	to { background-position: 0 37px; }
+}
+
+#lesson93 .img3cur {
+	position:absolute;
+	left:179px;
+	top:76px;
+}
+
+#lesson93 .img3x {
+	position:absolute;
+	left:393px;
+	top:63px;
+}
+
+#lesson93 div.pop-msg {
+	position:absolute;
+	left:1px;
+	top:370px;
+	width:942px;
+	background-color:#fff;
+	border:1px solid #6b6b6b;
+	border-radius:20px;
+	box-shadow:none;
+	padding:20px 20px 10px 20px;
+}
+#lesson93 div.pop-msg p { text-align:left; }
+
+/* tip4 */
+#lesson94 .tip4 .tipn { background-image:url(0090-tip4.png); }
+
+#lesson94 .img94l1 { left:23px; top:125px; }
+#lesson94 .img94r1 { left:565px; top:124px; width:263px; height:279px; }
+#lesson94 .img94r2 { left:565px; top:124px; width:263px; height:279px; }
+#lesson94 .img94lbub { left:50px; top:-14px; }
+#lesson94 .img94rbub { left:430px; top:80px; }
+
+#lesson94 .tip4 .tipbg1 { left:-167px; top:0; z-index: 1; display:none; }
+
+#lesson94 .tip4 .lbubtxt1,
+#lesson94 .tip4 .lbubtxt2,
+#lesson94 .tip4 .rbubtxt1,
+#lesson94 .tip4 .rbubtxt2,
+#lesson94 .tip4 .ltitle,
+#lesson94 .tip4 .rtitle1,
+#lesson94 .tip4 .rtitle2
+{
+	text-transform:uppercase;
+	font-size:30px;
+	line-height:31px;
+	color:#555;
+	text-align:center;
+}
+#lesson94 .tip4 .lbubtxt1 { top:28px; left:86px; width:265px; }
+#lesson94 .tip4 .lbubtxt2 { top:43px; left:67px; width:299px; }
+#lesson94 .tip4 .rbubtxt1 { top:113px; left:445px; width:195px; }
+#lesson94 .tip4 .rbubtxt2 { top:113px; left:445px; width:195px; }
+#lesson94 .tip4 .ltitle { top:418px; left:30px; text-align:left; color:#eee; }
+#lesson94 .tip4 .rtitle1 { top:418px; left:565px; text-align:left; width:348px; }
+#lesson94 .tip4 .rtitle2 { top:418px; left:524px; text-align:left; width:395px; }
+/* /tips */

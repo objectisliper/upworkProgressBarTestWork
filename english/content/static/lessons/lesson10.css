@@ -1,0 +1,176 @@
+﻿#lesson10 .lesson-body {
+	padding:0;
+	width:1016px;
+	height:716px;
+	border-bottom-left-radius:11px;
+	border-bottom-right-radius:11px;
+}
+
+#lesson10 .lesson-body .bg {
+	position:absolute;
+	top:-43px; left:0;
+}
+
+#lesson10 .lesson-body .pop-msg {
+	position:absolute;
+	display:none;
+	opacity:0;
+	border:2px solid #5a5a5a;
+	border-radius:15px;
+	background-color:#fff;
+	width:488px;
+	left:264px; top:220px;
+	text-align:center;
+	padding:35px 0 0 0;
+	box-shadow:5px 5px 16px 0 rgba(0, 0, 0, 0.54);
+}
+
+#lesson10 .lesson-body .pop-msg h2,
+#lesson10 .lesson-body .pop-msg h3 {
+	color:#333;
+	text-align:center;
+}
+#lesson10 .lesson-body .pop-msg h2 {
+	font-size:20px;
+	line-height:20px;
+	padding:10px 0;
+}
+#lesson10 .lesson-body .pop-msg h3 {
+	font-size:20px;
+	line-height:20px;
+	font-weight:bold;
+	padding:10px 0;
+}
+
+#lesson10 .lesson-body .pop-msg button.but-lang {
+	display:inline-block;
+	position:relative;
+	cursor:pointer;
+	outline:none;
+	background:transparent;
+	border:0 none;
+}
+#lesson10 .lesson-body .pop-msg button.but-lang img {
+	width:74px;
+	opacity:0.8;
+	margin:0 26px;
+}
+#lesson10 .lesson-body .pop-msg button.but-lang:hover img {
+	opacity:1;
+}
+
+#lesson10 .progress {
+	padding-top:27px;
+	border-radius:0 0 15px 15px;
+	overflow:hidden;
+}
+#lesson10 .progress .line {
+	height:8px;
+	background-color:#65b8c0;
+	width:0;
+}
+
+#lesson20 { display:none; }
+
+#lesson20 .welcome {
+	position:relative;
+	padding-top:66px;
+	padding-left:132px;
+}
+
+#lesson20 .lesson-body h1 {
+	padding:17px 0 28px 0;
+}
+
+#lesson20 p {
+	line-height:37px;
+}
+
+/*
+#lesson20 img.speaker {
+	display:inline-block;
+	vertical-align:middle;
+	width:42px;
+}
+*/
+
+#lesson20 img.it-logo {
+	display:block;
+	position:absolute;
+	top:391px; left:729px;
+	width:117px;
+}
+
+
+#lesson45 { display:none; }
+
+#lesson45 .bg {
+	position:absolute;
+	top:100px; left:15px;
+	text-align:left;
+	width:986px;
+	height:548px;
+	overflow:hidden;
+}
+
+#lesson45 .bg img.is_sue,
+#lesson45 .bg img.is_sam {
+	width:756px;
+	height:567px;
+	margin-top:-19px;
+}
+
+#lesson45 .board {
+	position:absolute;
+	top:156px; left:553px;
+	width:393px; height:222px;
+}
+
+#lesson45 .board .chart {
+	position:absolute;
+	top:2px; left:5px;
+}
+
+#lesson45 .board .chart .sector7 {
+	position:absolute;
+	top:12px; left:16px;
+	width:192px;
+}
+
+#lesson45 .board .chart .sector93 {
+	position:absolute;
+	top:13px; left:7px;
+	width:213px;
+}
+
+#lesson45 .board .percent {
+	position:absolute;
+	color:#fff;
+	font-weight:bold;
+}
+#lesson45 .board .percent7 {
+	top:26px; left:93px;
+}
+#lesson45 .board .percent93 {
+	top:142px; left:91px;
+}
+
+#lesson45 .board div.txt {
+	position:absolute;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:14px;
+	line-height:18px;
+}
+
+#lesson45 .board div.gray {
+	color:#7b7b7b;
+	top:22px; left:217px;
+	width:175px;
+}
+
+#lesson45 .board div.blue {
+	color:#29c4ea;
+	top:146px; left:217px;
+	width:175px;
+}

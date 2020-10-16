@@ -1,0 +1,647 @@
+﻿/* title page-book before les140 */
+#lesson130 {
+	display:none;
+}
+/*
+#lesson130 .page-book,
+#lesson130 .page-chapter {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:667px;
+	padding:15px;
+}
+*/
+
+
+#lesson140 {
+	display:none;
+}
+
+#lesson140 .block1, #lesson140 .block2 {
+	position:absolute;
+	top:0; left:0;
+}
+
+#lesson140 .bg {
+	position:absolute;
+	left:0px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson140 .block1 .bg { top:110px; }
+#lesson140 .block1 .bg img.floor {
+	position:absolute;
+	top:-162px; left:0;
+}
+#lesson140 .block1 .bg img.people {
+	position:absolute;
+	top:107px; right:77px;
+	width:700px;
+}
+#lesson140 .block1 .bg img.board {
+	position:absolute;
+	top:-12px; left:210px;
+	width:807px; height:489px;
+}
+
+#lesson140 .block1 .bg img.is_sue {
+	position:absolute;
+	top:31px; left:0px;
+	height:530px;
+}
+
+#lesson140 .block1 .bg img.is_sam {
+	position:absolute;
+	top:44px; left:0px;
+	height:506px;
+}
+
+#lesson140 .block1 .bg div.intro {
+	position:absolute;
+	top:41px; left:286px;
+	width:659px; height:354px;
+	background-color:#fff;
+	padding:15px;
+}
+
+/* page 2 */
+#lesson140 .block2 {
+	padding:0 15px;
+}
+
+#lesson140 .block2 .bg { top:116px; }
+
+#lesson140 .block2 .bg img.is_sue,
+#lesson140 .block2 .bg img.is_sam {
+	position:absolute;
+	left:0; top:-124px;
+}
+
+#lesson140 .avatar {
+	position:absolute;
+	top:121px; left:95px;
+}
+
+#lesson140 div.cards140 {
+	border-radius:20px;
+	background-color:#fff;
+	border:1px solid #6b6b6b;
+	padding:30px;
+	margin-top:165px;
+	min-height:392px;
+}
+
+#lesson140 div.card {
+	display:inline-block;
+	position:relative;
+	width:129px;
+	vertical-align:top;
+	text-align:center;
+	cursor:pointer;
+}
+
+#lesson140 div.card img.card {
+	width:107px;
+}
+
+#lesson140 div.card img.card-hover {
+	position:absolute;
+	display:none;
+	top:-6px; left:0px;
+	width:130px;
+}
+#lesson140 div.card:hover img.card-hover {
+	display:block;
+}
+#lesson140 div.card.card145 img.card-hover {
+	top:-4px;
+}
+
+#lesson140 div.card img.check,
+#lesson140 div.card img.partial {
+	position:absolute;
+	top:131px; left:66px;
+	width:32px; height:32px;
+}
+
+#lesson140 div.card span {
+	display:inline-block;
+	width:100%;
+	text-align:left;
+	padding-left:11px;
+}
+
+
+#lesson141 {
+	display:none;
+}
+
+#lesson141 .videoplayer {
+	height:506px;
+	overflow:hidden;
+	text-align:center;
+}
+
+#lesson141 .videoplayer .flowplayer {
+	height:502px;
+	width:879px;
+}
+
+#lesson141 .lesson-body p.video {
+	margin-top:10px;
+}
+
+
+#lesson142 {
+	display:none;
+}
+
+#lesson142 .block {
+	position:absolute;
+	top:0; left:0;
+}
+
+#lesson142 .bg {
+	position:absolute;
+	left:0px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+/* page 1 */
+#lesson142 .block1 .bg { top:110px; }
+
+#lesson142 .block1 .bg img.floor {
+	position:absolute;
+	top:-162px; left:0;
+}
+#lesson142 .block1 .bg img.people {
+	position:absolute;
+	top:107px; right:77px;
+	width:700px;
+}
+#lesson142 .block1 .bg img.board {
+	position:absolute;
+	top:-12px; left:210px;
+	width:807px; height:489px;
+}
+
+#lesson142 .block1 .bg img.is_sue {
+	position:absolute;
+	top:31px; left:0px;
+	height:530px;
+}
+
+#lesson142 .block1 .bg img.is_sam {
+	position:absolute;
+	top:44px; left:0px;
+	height:506px;
+}
+
+#lesson142 .block1 .bg div.intro {
+	position:absolute;
+	top:41px; left:286px;
+	width:659px; height:354px;
+	background-color:#fff;
+	padding:15px;
+}
+
+#lesson142 .lesson-body .block1 div.intro h2 {
+	padding-bottom:9px;
+}
+
+/* page 2 - tips */
+#lesson142 .block2 .bg { top:110px; }
+
+#lesson142 .block2 .bg img.is_sue {
+	position:absolute;
+	top:76px; left:0px;
+	height:434px;
+}
+
+#lesson142 .block2 .bg img.is_sam {
+	position:absolute;
+	top:89px; left:0px;
+	height:423px;
+}
+
+#lesson142 .block2 .lbub {
+	position:absolute;
+	top:11px; left:79px;
+}
+#lesson142 .block2 .lbub img {
+	position:absolute;
+	top:0; left:0;
+	width:161px; height:139px;
+	opacity:0.5;
+}
+#lesson142 .block2 .lbub p {
+	position:relative;
+	display:block;
+	width:162px;
+	padding:26px 15px;
+	font-size:16px;
+	line-height:21px;
+	text-align:center;
+}
+
+#lesson142 div.tips {
+	position:relative;
+	background-color:transparent;
+	width:835px;
+	margin-left:172px;
+}
+
+#lesson142 div.tips-slider {
+	padding:0 95px 0 95px;
+	background-color:transparent;
+	margin-top:10px;
+}
+
+#lesson142 .tips-item  {
+	position:relative;
+	height:510px;
+	background-color: #f1f1f1;
+	overflow: hidden;
+}
+
+#lesson142 .tips-item .txt {
+	padding:9px 15px;
+	line-height:1.5em;
+}
+
+/* tip1 */
+#lesson142 .tip1 div.img {
+	position:relative;
+	text-align:center;
+}
+
+#lesson142 .tip1 img.img1 {
+	display:inline-block;
+	width:233px;
+}
+
+#lesson142 .tip1 img.img2 {
+	display:inline-block;
+	width:126px;
+	margin-left:-30px;
+	vertical-align:top;
+}
+
+#lesson142 .tip1 .try-pass-vac {
+	display:inline-block;
+	width:175px; height:129px;
+	border:2px solid #c2c3b1;
+	border-radius:15px;
+	background: #e5e8c3;
+	padding:10px;
+	overflow:hidden;
+	text-align:left;
+	vertical-align:top;
+	margin:10px 0 0 13px;
+}
+
+/* tip2 */
+#lesson142 .tip2 img.img1 {
+	float:right;
+	margin-left:10px;
+}
+
+/* tip3 */
+#lesson142 .slick-slide.tip3 p.img img {
+	display:inline-block;
+}
+#lesson142 .slick-slide.tip3 p.img img.hmargin {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+/* tip4,tip5 */
+#lesson142 .slick-slide.tip4 div.img,
+#lesson142 .slick-slide.tip5 div.img {
+	position:relative;
+	float:right;
+	height:1px;
+	width:294px;
+}
+
+#lesson142 .slick-slide.tip4 p.img,
+#lesson142 .slick-slide.tip5 p.img {
+	background-image:url(../img/li-box.png);
+	background-repeat:no-repeat;
+	padding-left:35px;
+	background-position:20px 8px;
+}
+
+#lesson142 .slick-slide.tip4 div.img img,
+#lesson142 .slick-slide.tip5 div.img img {
+	position:absolute;
+}
+
+#lesson142 .slick-slide.tip4 div.img img.phone,
+#lesson142 .slick-slide.tip5 div.img img.phone {
+	top:10px; left:0;
+	width:88px;
+}
+
+#lesson142 .slick-slide.tip4 p.pimg,
+#lesson142 .slick-slide.tip5 p.pimg {
+	background-image:url(../img/li-box.png);
+	background-repeat:no-repeat;
+	background-position:20px 8px;
+	padding-left:35px;
+}
+
+#lesson142 .slick-slide.tip4 p.pimg img.phone,
+#lesson142 .slick-slide.tip5 p.pimg img.phone {
+	position:relative;
+	float:right;
+	margin-right:195px;
+	margin-left:10px;
+	margin-bottom:186px;
+	width:88px;
+}
+
+#lesson142 .slick-slide.tip4 img.display,
+#lesson142 .slick-slide.tip5 img.display {
+	top:206px; left:49px;
+	width:216px;
+}
+#lesson142 .slick-slide.tip4 img.router,
+#lesson142 .slick-slide.tip5 img.router {
+	top:59px; left:174px;
+	width:125px;
+}
+#lesson142 .slick-slide.tip4 img.signal,
+#lesson142 .slick-slide.tip5 img.signal {
+	top:55px; left:177px;
+	width:52px;
+}
+#lesson142 .slick-slide.tip4 img.redline,
+#lesson142 .slick-slide.tip5 img.redline {
+	top:134px; left:128px;
+}
+#lesson142 .slick-slide.tip4 img.greenline,
+#lesson142 .slick-slide.tip5 img.greenline {
+	top:123px; left:47px;
+}
+
+
+
+#lesson143 {
+	display:none;
+}
+
+#lesson143 .block1, #lesson143 .block2 {
+	position:absolute;
+	top:113px; left:0;
+	padding:0 15px;
+}
+
+/* page1 */
+#lesson143 .block1 .col-img {
+	padding:0;
+}
+
+#lesson143 .block1 .example {
+	position:relative;
+	width:562px;
+	margin:13px auto 0 auto;
+}
+
+#lesson143 .block1 .example .bg {
+	text-align:center;
+	height:546px;
+}
+#lesson143 .block1 .example .bg img {
+	width:582px;
+	margin-left:-15px;
+}
+
+#lesson143 .block1 .example .hand {
+	position:absolute;
+	bottom:0; right:-118px;
+}
+
+#lesson143 .block1 .example div.mobile {
+	position:absolute;
+	bottom:-37px; left:-66px;
+}
+
+#lesson143 .block1 .example div.mobile img.mobile {
+	position:relative;
+}
+
+#lesson143 .block1 .example div.mobile img.code {
+	position:absolute;
+	top:-24px; left:83px;
+}
+
+#lesson143 .block1 .example div.mobile .txt {
+	position:absolute;
+	top:13px; left:95px;
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+	line-height:20px;
+	text-align:center;
+	width:152px;
+}
+
+#lesson143 .block1 .example .form {
+	position:absolute;
+	top:42px;
+	left:76px;
+	width:399px;
+	height:274px;
+}
+
+#lesson143 .block1 .example .user {
+	position:absolute;
+	top:34px; left:0px;
+	width:399px;
+	text-align:center;
+}
+#lesson143 .block1 .example .user img {
+	width:73px; height:74px;
+}
+
+#lesson143 .block1 .example .field-txt {
+	width:307px; height:34px;
+	text-align:center;
+	line-height:24px;
+	font-size:24px;
+	color:#444;
+	font-weight:bold;
+	background-color:#fff;
+	border-radius:3px;
+	padding-top:5px;
+}
+
+#lesson143 .block1 .example .field-login {
+	position:absolute;
+	top:127px; left:43px;
+}
+
+#lesson143 .block1 .example .field-pwd {
+	position:absolute;
+	top:168px; left:43px;
+	font-size:30px;
+	line-height:30px;
+	padding-top:8px;
+}
+
+#lesson143 .block1 .example .s-code {
+	position:absolute;
+	width:307px; height:34px;
+	text-align:left;
+	line-height:24px;
+	font-size:24px;
+	color:#444;
+	font-weight:bold;
+	padding-top:5px;
+	top:127px; left:117px;
+}
+
+#lesson143 .block1 .example .s-ok {
+	position:absolute;
+	width:307px; height:34px;
+	text-align:center;
+	line-height:24px;
+	font-size:24px;
+	color:#00b9c2;
+	font-weight:bold;
+	padding-top:5px;
+	top:215px; left:100px;
+}
+
+#lesson143 .block1 .example .field-but {
+	position:absolute;
+	top:218px; left:127px;
+	width:146px; height:40px;
+	text-align:center;
+	background-color:#fcaa17;
+	border-radius:20px;
+	line-height:40px;
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+}
+
+/* page2 */
+#lesson143 .block2 .col-img {
+	text-align:center;
+}
+
+#lesson143 .block2 .col-img div {
+	display:inline-block;
+	margin-top:12px;
+}
+
+#lesson143 .block2 .col-img img.anim {
+	position:absolute;
+	top:189px; left:166px;
+	width:101px;
+}
+
+/* 144-tips */
+#lesson144 {
+	display:none;
+}
+
+#lesson144 .block {
+	position:absolute;
+	top:0; left:0;
+}
+
+#lesson144 .bg {
+	position:absolute;
+	left:0px; top:110px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson144 .block1 .bg img.is_sue {
+	position:absolute;
+	top:76px; left:0px;
+	height:434px;
+}
+
+#lesson144 .block1 .bg img.is_sam {
+	position:absolute;
+	top:89px; left:0px;
+	height:423px;
+}
+
+#lesson144 .block1 .lbub {
+	position:absolute;
+	top:11px; left:79px;
+}
+#lesson144 .block1 .lbub img {
+	position:absolute;
+	top:0; left:0;
+	width:161px; height:139px;
+	opacity:0.5;
+}
+#lesson144 .block1 .lbub p {
+	position:relative;
+	display:block;
+	width:162px;
+	padding:26px 15px;
+	font-size:16px;
+	line-height:21px;
+	text-align:center;
+}
+
+#lesson144 div.tips {
+	position:relative;
+	background-color:transparent;
+	width:835px;
+	margin-left:172px;
+}
+
+#lesson144 div.tips .slick-slide .item-l {
+	height:390px;
+}
+#lesson144 div.tips .slick-slide .item-r {
+	height:510px;
+}
+
+#lesson144 div.tips-slider {
+	padding:0 95px 0 95px;
+	background-color:transparent;
+	margin-top:10px;
+}
+
+#lesson144 .tips-item  {
+	position:relative;
+	height:510px;
+	background-color: #f1f1f1;
+	overflow: hidden;
+}
+
+#lesson144 .tips-item .txt {
+	padding:9px 15px;
+	line-height:1.5em;
+}
+
+/* page2 */
+#lesson144 .block2 {
+	padding-top:325px;
+}
+
+#lesson144 .block2 .bg img.is_sue {
+	position:absolute;
+	top:76px; left:67px;
+	height:434px;
+}
+
+#lesson144 .block2 .bg img.is_sam {
+	position:absolute;
+	top:89px; left:66px;
+	height:423px;
+}

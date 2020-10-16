@@ -1,0 +1,325 @@
+﻿<script>
+var Quiz32Config = {
+    files: [
+        'de/qp2',
+        'de/qp6',
+        'de/qp8',
+        'de/qp13',
+        'de/qp14'
+    ],
+    unsafeAttachTypes: [
+    	'zip',
+		'xls',
+		'doc',
+    	'exe'
+    ],
+    autoStepAllow: false,
+    autoStepTimeout: 2000,
+    marginBottomWithinBlocks: 20,
+    blocksEnabled: {
+        text1: false,
+        text2: true,
+        tips: true,
+        quiz: true,
+        video: false
+    },
+	nextTitle: "Bitte wähle: Reguläre EMail oder Phishing?",
+};
+
+	fin_exam102 = [
+		{
+			//1
+			showResults: 1,
+			question: "",
+			question2: "http://h.paypal.de-checking.net/de/ID.php?u=LhsdoOKJfsjdsdvg",
+			type: "radio",
+			answer: 4,
+			answers:
+				[
+					"paypal.de",
+					"checking.net",
+					"de-checking.net",
+					"h.paypal"
+				],
+			remark: ""
+		},
+
+		{
+			//2
+			question: "",
+			question2: "https://paypal.secure.server.de",
+			type: "radio",
+			answer: 2,
+			answers:
+				[
+					"paypal.secure",
+					"server.de",
+					"secure.server"
+				],
+			remark: ""
+		},
+
+		{
+			//3
+			question: "",
+			question2: "http://paypal.de@secure-server.de/secure-environment",
+			type: "radio",
+			answer: 8,
+			answers:
+				[
+					"paypal.de",
+					"server.de",
+					"secure-environment",
+					"secure-server.de"
+				],
+			remark: ""
+		},
+
+		{
+			//4
+			question: "",
+			question2: "http://signin.paypal.com@10.19.32.4/o",
+			type: "radio",
+			answer: 4,
+			answers:
+				[
+					"paypal.com",
+					"signin.paypal",
+					"10.19.32.4",
+					"19.32.4/o"
+				],
+			remark: ""
+		},
+
+		{
+			//5
+			question: "",
+			question2: "http://63.17.167.23/pc/verification.htm?=https://www.paypal.com/",
+			type: "radio",
+			answer: 8,
+			answers:
+				[
+					"www.paypal.com",
+					"https://www.paypal.com",
+					"verification.htm",
+					"63.17.167.23"
+				],
+			remark: ""
+		},
+
+		{
+			//6
+			question: "",
+			question2: "http://paypal.com.de.cgi-bin.webscr.cmd-login-submit.dispatch.secure.su/cgi-bin/",
+			type: "radio",
+			answer: 4,
+			answers:
+				[
+					"paypal.com",
+					"dispatch.secure",
+					"secure.su",
+					"cgi-bin.webscr",
+					"paypal.com.de"
+				],
+			remark: ""
+		}
+	];
+
+	fin_exam145 = [
+		{
+			showResults: 0,
+			skipExam: 0,
+			randQ: 0,
+			countQ: 2,
+
+			//1
+			question: "",
+			question2: "Du wirst aufgefordert, ein sicheres Passwort zu wählen. Welches kann als sicher angesehen werden?",
+			answer: 8,
+			answers:
+				[
+					"Formula1000",
+					"JanApp2020",
+					"1234567890",
+					"G&s2Pb3x!14"
+				],
+			remark: "Für fast jedes Konto, das Sie online erstellen, müssen Sie ein sicheres Passwort erstellen. Verwenden Sie kein Wort oder eine Phrase von besonderer Bedeutung für Sie wie einen Geburtstag oder den Namen eines Familienmitglieds. Das ist die Art von Information, die von jemandem gefunden werden kann, der ein wenig nachforscht. Es sollte mindestens acht bis zehn Zeichen lang sein und mindestens einen Groß- und einen Kleinbuchstaben enthalten.<br>" +
+				"Tipp: Erstellen Sie einen Satz oder einen Satz als Grundlage für Ihr Passwort. Beispiel: Wenn Ihre Kinder Jessie, Cassey, Michael und Jenny heißen, könnte Ihr Basiswort \"jecamije\" lauten - die ersten beiden Buchstaben jedes Namens zusammen. Wenn dein erstes Haus in der Spooner Street war, könnte ein Basiswort \"houseonspooner\" sein. Sie könnten auch einen Unterstrich (oder eine andere zufällige Interpunktion) und Zahlen hinzufügen, um \"jecamije_\" zu erstellen. Oder Sie können dem Wort ein Symbol hinzufügen, um \"housonspooner#1500\" zu erstellen"
+		},
+
+		{
+			//2
+			question: "",
+			question2: "Es ist in Ordnung, Passwörter zu teilen mit:",
+			answer: 8,
+			answers:
+				[
+					"Ihrem Chef",
+					"Dem Hotelmanager",
+					"Ihrem Mitarbeiter",
+					"Keinem der zuvor genannten",
+				],
+			remark: "Wenn Sie Ihr Passwort mit jemandem teilen, handelt es sich nicht nur um einen Richtlinienverstoß, sondern Sie setzen sich auch selbst und das Unternehmen einem erheblichen Risiko aus. Denken Sie an Ihr Passwort wie Ihre Unterschrift. Es mit jemandem zu teilen ist, als ob man dieser Person die Vollmacht geben würde, in Ihrem Namen / Ihrer Autorität zu unterzeichnen, was bedeutet, dass Sie alles, was sie in Ihrem Namen tun, billigen.<br>" +
+				"Sie sind die einzige Person, die für alle Aktivitäten verantwortlich ist, die mit Ihrem Passwort ausgeführt werden."
+		},
+	];
+
+	fin_exam164 = [
+		{
+			//1
+			showResults: 1,
+			randQ: 1,
+			countQ: 3,
+			question: "",
+			question2: "Du erhälst eine E-Mail, die dich über eine offene Rechnung informiert. Angehängt ist eine ausführbare Datei (invoice.exe). Was tust du?",
+			type: "radio",
+			answer: 2,
+			answers:
+				[
+					"Ich öffne die Datei, um zu prüfen, ob die Rechnung wirklich überfällig ist",
+					"Das Öffnen einer Datei mit dieser Erweiterung ist wahrscheinlich ein Betrug - also lösche ich die E-Mail",
+					"Es könnte eine legitime Rechnung sein - aber um auf der sicheren Seite zu sein, scanne ich die Datei mit meinem Antivirenprogramm, bevor ich sie öffne",
+					"Ich sende eine E-Mail mit meiner Kreditkartennummer zurück, damit sie die Rechnung direkt bezahlen können"
+				],
+			remark: "Eine .exe-Datei ist möglicherweise gefährlich, weil es ein Programm ist, das alles tun kann (innerhalb der Grenzen der Windows-Benutzerkontensteuerung). Wenn Sie eine Datei mit einer dieser Dateierweiterungen öffnen, kann Ihr Computer ohne Ihre vorherige Berechtigung eine oder mehrere in diese Datei programmierte Prozesse ausführen. Mediendateien wie .JPEG-Bilder und .MP3-Musikdateien sind nicht gefährlich, da sie keinen Code enthalten können. (Es gab Fälle, in denen ein in böswilliger Absicht erstelltes Bild oder eine andere Mediendatei eine Sicherheitslücke in einer Ansicht-Anwendung ausnutzen kann, aber diese Probleme sind selten und werden schnell behoben.)"
+		},
+
+		{
+			//2
+			question: "",
+			question2: "Diese Typen können als sicher angesehen werden, wenn sie von einem nicht vertrauenswürdigen Ort aus geöffnet werden, wenn Sie die aktuellste Version verwenden",
+			type: "radio",
+			answer: 2,
+			answers:
+				[
+					"doc (Word-Dokument) & exe (ausführbar)",
+					"txt (Textdatei), jpg (Bild)",
+					"docm (Word Doc with Macro), pdf (Portable Document Format)",
+					"Nichts des oben genannten"
+				],
+			remark: "Sie können feststellen, ob ein Dateityp sicher ist, indem Sie die Dateierweiterung überprüfen. Eine Dateierweiterung sind die drei Buchstaben, die auf den Punkt am Ende des Dateinamens folgen. Microsoft hat mehrere Arten von gefährlichen Erweiterungen klassifiziert, allerdings werden nur einige als sicher betrachtet. Dies sind zum Beispiel GIF, JPG JPEG, TIF oder TIFF, TXT, PDF, MPG oder MPEG, MP3 und WAV. Diese Erweiterungen stellen verschiedene Dateitypen dar und sind die Formate, die die meisten Internetnutzer als E-Mail-Anhänge versenden. Das PDF-Dateiformat bietet eine Reihe von Sicherheitsvorteilen gegenüber Standard-Textverarbeitungsformaten, wenn es um die Sicherheit geht. Ein Angreifer kann eine gefährliche Datei in einer PDF-Datei verknüpfen. Der Benutzer muss diese jedoch manuell öffnen."
+		},
+
+		{
+			//3
+			question: "",
+			question2: "Sie erhalten eine E-Mail mit einem Word-Dokument von einem Absender, den Sie kennen. In Word gibt es ein Makro. Ist es sicher, es zu aktivieren?",
+			type: "radio",
+			answer: 2,
+			answers:
+				[
+					"Ja - weil ich den Absender kenne",
+					"Nein - das Makro könnte versteckte Malware aktivieren",
+					"Es ist auf jeden Fall sicher, da unsere Antivirenlösung die Datei sonst bereits gefiltert hätte",
+					"Die Aktivierung ist sicher, solange ich das Dokument nicht speichere "
+				],
+			remark: ""
+		},
+
+		{
+			//4
+			question: "",
+			question2: "Wie müssen vertrauliche Informationen elektronisch sinnvollerweise weitergegeben werden?",
+			type: "radio",
+			answer: 4,
+			answers:
+				[
+					"Nur über E-Mail, denn nur so kann ich dem Empfänger die geheimen Informationen direkt übergeben.",
+					"Eine PDF-Datei ist am sinnvollsten.",
+					"Mittels einer starken Verschlüsselung der Daten oder der gesamten E-Mail Nachricht.",
+					"Auf einem USB Stick speichern und per Kurier versenden."
+				],
+			remark: ""
+		},
+
+		{
+			//5
+			question: "",
+			question2: "Welche der folgenden Aussagen stimmt bezüglich der E-Mail-Nutzung nicht?",
+			type: "radio",
+			answer: 4,
+			answers:
+				[
+					"Absenderadressen können gefälscht sein; im Zweifelsfall verschafft eine telefonische Überprüfung beim betreffenden Kunden bzw. beim angegebenen Absender Klärung.",
+					"Nachrichten zweifelhafter Herkunft werden umgehend gelöscht.",
+					"Unverschlüsselte Nachrichten sind nur im externen Nachrichtenverkehr für jedermann einseh- und veränderbar.",
+				],
+			remark: ""
+		},
+
+		{
+			//6
+			question: "",
+			question2: "Sie erhalten eine E-Mail mit folgender Betreffzeile: „Glückwunsch, Sie haben eine Woche Ferien für zwei Personen in Italien gewonnen!“ Was tun Sie?",
+			type: "radio",
+			answer: 2,
+			answers:
+				[
+					"Sie sind neugierig geworden und öffnen die E-Mail.",
+					"Sie prüfen, ob Sie den Absender kennen. Falls nicht, löschen Sie die E-Mail ungelesen.",
+					"Sie speichern die E-mail",
+					"Sie freuen sich darüber und senden das E-Mail an ihre Partnerin und ihre Kollegen weiter."
+				],
+			remark: ""
+		},
+
+		{
+			//7
+			question: "",
+			question2: "Welche Möglichkeiten zum sicheren Senden von vertraulichen Dokumenten in E-Mails gibt es?",
+			type: "radio",
+			answer: 1,
+			answers:
+				[
+					"Dokumente können mit 7-Zip und der Option AES-256 verschlüsselt und dann an den Empfänger übermittelt werden.",
+					"Wenn ich einem vertrauenswürdigen Absender antworte, kann ich auch vertrauliche Daten an das Mail dran hängen.",
+					"E-Mails muss man nicht verschlüsseln, da die Kommunikation ohnehin nicht von Dritten mitgelesen werden kann.",
+					"Alle Antworten sind richtig."
+				],
+			remark: ""
+		},
+
+		{
+			//8
+			question: "",
+			question2: "Mit welcher der folgenden Massnahmen lässt sich NICHT herausfinden, ob ein E-Mail gefälscht ist?",
+			type: "radio",
+			answer: 2,
+			answers:
+				[
+					"Zweifelhafte Mails sind auch von bekannten Absendern kritisch zu hinterfragen. Oft hilft eine telefonische Rückfrage oder man gibt die E-Mail-Adresse des Bekannten selber ein und startet eine entsprechende Rückfrage.",
+					"Die Informationen in der E-Mail-Signatur (am Schluss einer E-Mail) zeigen mir eindeutig an, ob eine E-Mail gefälscht ist.",
+					"Den Absender telefonisch kontaktieren. Dabei ist nicht die mitgelieferte Telefonnummer zu verwenden, sondern die Telefonnummer aus einem öffentlichen oder aus dem unternehmensinternen Telefonverzeichnis."
+				],
+			remark: ""
+		}
+	];
+
+	fin_exam244 = [
+		{
+			question: "OFFICE MAKRO",
+			answer: 2,
+			img: "0244-macro.png"
+		},
+		{
+			question: "PDF-Anhang",
+			answer: 1,
+			img: "0244-pdf.png"
+		},
+		{
+			question: "Installations-<br>programm",
+			answer: 2,
+			img: "0244-program.png"
+		},
+		{
+			question: "Software aktualisieren",
+			answer: 2,
+			img: "0244-player.png"
+		},
+		{
+			question: "Makro",
+			answer: 2,
+			img: "0244-word.jpg"
+		},
+	];
+</script>

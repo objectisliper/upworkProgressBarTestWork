@@ -1,0 +1,219 @@
+﻿#lesson145 {
+	display:none;
+}
+
+#lesson145 .lesson-body .bg {
+	position:absolute;
+	top:118px; left:0;
+	width:1016px;
+	overflow:hidden;
+}
+
+#lesson145 .lesson-body .bg > img {
+	width:1016px;
+	margin-top:-42px;
+	margin-left:0;
+}
+
+#lesson145 .lesson-body .bg  .bubble3 {
+	position:absolute;
+	top:0px;
+	left:232px;
+	width:416px;
+}
+
+/* exam */
+#lesson145 div.d-exam {
+	position:absolute;
+	top:53px; left:111px;
+	width:795px; height:469px;
+	padding:15px;
+}
+
+#lesson145 div.d-exam .title2 .info {
+	background-color:rgb(182, 237, 243);
+	padding:15px;
+	margin:-15px -15px 0 -15px;
+}
+
+#lesson145 div.d-exam .title2 .info h4 {
+	float:left;
+	font-size:16px;
+	line-height:20px;
+	font-weight:bold;
+}
+#lesson145 div.d-exam .title2 .info h3 {
+	float:right;
+	font-size:16px;
+	line-height:20px;
+	font-weight:bold;
+}
+#lesson145 div.d-exam .title2 h1 {
+	font-size:28px;
+	line-height:32px;
+	font-weight:bold;
+	/*color:#ff7d00;*/
+}
+#lesson145 div.d-exam .title2 h2 {
+	font-size:22px;
+	line-height:27px;
+	font-weight:normal;
+	/*color:#ff7d00;*/
+}
+
+#lesson145 .fin-exam table {
+	border-collapse:collapse;
+	border-spacing:0;
+	margin:0;
+}
+
+#lesson145 .fin-exam td.text {
+	padding:10px 30px 10px 0;
+	width:845px;
+	line-height:26px;
+}
+
+#lesson145 .fin-exam tr.dotted td {
+	border-bottom:1px dotted #d8d8d8;
+}
+
+#lesson145 .fin-exam tr.dotted td.chboxgreen {
+	border-bottom-color:#a1d6bc;
+}
+
+.fin-exam .chboxgreen {
+	/*background-color:rgba(255, 125, 0, 0.27);*/
+}
+
+/* exam results */
+#lesson146 {
+	display:none;
+}
+
+#lesson146 .fin-exam .title {
+	position:relative;
+	height:106px;
+	line-height:106px;
+	background:#65b8c0;
+}
+#lesson146 .fin-exam .title img {
+	display:inline-block;
+	width:93px;
+	height:100px;
+	margin:0 0 0 52px;
+	vertical-align:top;
+}
+
+#lesson146 .fin-exam .title h1,
+#lesson146 .fin-exam .title h2,
+#lesson146 .fin-exam .title h3 {
+	display:inline-block;
+	vertical-align:top;
+	color:#fff;
+}
+
+#lesson146 .fin-exam .title h2 {
+	font-size:27px;
+	line-height:27px;
+	margin:45px 0 0 10px;
+}
+
+#lesson146 .fin-exam .title h3 {
+	position:absolute;
+	font-size:27px;
+	line-height:27px;
+	top:45px;
+	right:53px;
+	font-weight:bold;
+}
+
+#lesson146 .fin-exam span {
+	font:inherit;
+	color:inherit;
+}
+
+#lesson146 .fin-exam .title2 {
+	margin-top:20px;
+}
+#lesson146 .fin-exam .title2 h1 {
+	display:block;
+	text-transform:uppercase;
+	font-size:24px;
+	line-height:29px;
+	font-weight:800;
+	color:#537191;
+	margin:0;
+	padding:0 50px 13px 48px;
+	text-align:left;
+}
+#lesson146 .fin-exam .title2 h2 {
+	display:block;
+	font-size:22px;
+	line-height:29px;
+	font-weight:400;
+	color:#537191;
+	margin:0;
+	padding:0 50px 0 48px;
+	text-align:left;
+}
+
+#lesson146 .fin-exam td.text {
+	padding:10px 30px 10px 0;
+	width:845px;
+	line-height:26px;
+}
+
+#lesson146 .fin-exam tr.dotted td {
+	border-bottom:1px dotted #d8d8d8;
+}
+
+#lesson146 .fin-exam tr.dotted td.chboxgreen {
+	border-bottom-color:#a1d6bc;
+}
+
+#lesson146 .fin-exam .d-exam {
+	overflow-y:scroll;
+	height:418px;
+}
+
+#lesson146 .fin-exam .d-exam h3 { /* your result is...*/
+	font-size:20px;
+	line-height:24px;
+	margin:16px 0;
+	padding-left:24px;
+}
+
+#lesson146 table,
+#lesson146 tr,
+#lesson146 td {
+	margin:0;
+	padding:0;
+	border:0 none;
+}
+#lesson146 td.q, #lesson146 td.a {
+	font-weight:800;
+	padding-left:24px;
+	vertical-align:top;
+}
+
+#lesson146 td.good {
+	background-image:url(../exam/exam-v.png);
+	background-repeat:no-repeat;
+	background-size:16px 16px;
+	background-position:0 7px;
+}
+
+#lesson146 td.bad {
+	background-image:url(../exam/exam-minus.png);
+	background-repeat:no-repeat;
+	background-size:16px 16px;
+	background-position:0 7px;
+}
+
+#lesson146 td.rem {
+	font-size:16px;
+	line-height:24px;
+	font-weight:normal;
+	color:#8e8e8e;
+	padding-bottom:20px;
+}

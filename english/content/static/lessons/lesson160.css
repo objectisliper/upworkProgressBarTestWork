@@ -1,0 +1,276 @@
+﻿/* title page-book before les160 */
+#lesson150 {
+	display:none;
+}
+/*
+#lesson150 .page-book,
+#lesson150 .page-chapter {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:667px;
+	padding:15px;
+}
+*/
+#lesson160 {
+	display:none;
+}
+
+#lesson160 .bg {
+	position:absolute;
+	left:0px; top:116px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson160 .bg img.is_sue,
+#lesson160 .bg img.is_sam {
+	position:absolute;
+	left:0; top:-124px;
+}
+
+#lesson160 .avatar {
+	position:absolute;
+	top:121px; left:95px;
+}
+
+#lesson160 div.cards160 {
+	border-radius:20px;
+	background-color:#fff;
+	border:1px solid #6b6b6b;
+	padding:30px;
+	margin-top:105px;
+	min-height:396px;
+}
+
+#lesson160 div.card {
+	display:inline-block;
+	position:relative;
+	width:162px;
+	vertical-align:top;
+	text-align:center;
+	cursor:pointer;
+}
+
+#lesson160 div.card img.card {
+	width:118px;
+}
+
+#lesson160 div.card img.card-hover {
+	position:absolute;
+	display:none;
+	top:-6px; left:11px;
+	width:142px;
+}
+#lesson160 div.card:hover img.card-hover {
+	display:block;
+}
+#lesson160 div.card.card164 img.card-hover {
+	top:-4px; left:10px;
+}
+
+#lesson160 div.card img.check,
+#lesson160 div.card img.partial {
+	position:absolute;
+	top:139px; left:79px;
+	width:37px; height:37px;
+}
+
+#lesson160 div.card span {
+	display:inline-block;
+	width:100%;
+	text-align:left;
+	padding-left:23px;
+}
+
+
+#lesson161 {
+	display:none;
+}
+
+#lesson161 .videoplayer {
+	height:506px;
+	overflow:hidden;
+	text-align:center;
+}
+
+#lesson161 .videoplayer .flowplayer {
+	height:502px;
+	width:879px;
+}
+
+#lesson161 .lesson-body p.video {
+	margin-top:10px;
+}
+
+
+
+#lesson1620,
+#lesson162 {
+	display:none;
+}
+
+#lesson162 .bg {
+	position:absolute;
+	top:100px; left:0;
+	text-align:left;
+	width:1016px;
+	height:567px;
+	overflow:hidden;
+}
+
+#lesson162 .bg img.is_sue,
+#lesson162 .bg img.is_sam {
+	width:1150px;
+	height:612px;
+}
+
+#lesson162 ul.linfo li {
+	padding-bottom:10px;
+}
+
+#lesson162 div.cards162 {
+	border:1px solid #cccccc;
+	background-color:#fff;
+	padding:24px 0 0 19px;
+	margin-top:67px;
+	margin-left:262px;
+	height:242px; width:428px;
+}
+
+#lesson162 div.card {
+	display:inline-block;
+	position:relative;
+	width:190px;
+	vertical-align:top;
+	text-align:center;
+	cursor:pointer;
+}
+
+#lesson162 div.card img.card {
+	width:90px;
+}
+
+#lesson162 div.card img.card-hover {
+	position:absolute;
+	display:none;
+	top:-4px; left:43px;
+	width:107px;
+}
+#lesson162 div.card:hover img.card-hover {
+	display:block;
+}
+
+#lesson162 div.card img.check,
+#lesson162 div.card img.partial {
+	position:absolute;
+	top:104px; left:92px;
+	width:32px; height:32px;
+}
+
+#lesson162 div.card span {
+	display:inline-block;
+	width:100%;
+	text-align:left;
+	padding-left:31px;
+}
+
+
+#lesson1621,
+#lesson1622 {
+	display:none;
+}
+
+#lesson1621 .bg,
+#lesson1622 .bg {
+	position:absolute;
+	top:100px; left:0;
+	text-align:left;
+	width:1016px;
+	height:567px;
+	overflow:hidden;
+}
+
+#lesson1621 .bg img.is_sue,
+#lesson1621 .bg img.is_sam,
+#lesson1622 .bg img.is_sue,
+#lesson1622 .bg img.is_sam {
+	width:1150px;
+	height:612px;
+}
+
+#lesson1621 .bg .intro,
+#lesson1622 .bg .intro {
+	position:absolute;
+	top:67px; left:112px;
+	width:795px; height:449px;
+	padding:15px;
+}
+
+#lesson1621 .bg .intro li,
+#lesson1622 .bg .intro li {
+	padding-bottom:12px;
+}
+
+#lesson1621 .bg .intro img.img3 {
+	float:right;
+	width:361px;
+	margin:12px 0 0 20px;
+}
+
+
+#lesson163 {
+	display:none;
+}
+
+#lesson163 .bg {
+	position:absolute;
+	left:0px; top:110px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson163 .bg img.is_sue {
+	position:absolute;
+	top:76px; left:0px;
+	height:434px;
+}
+
+#lesson163 .bg img.is_sam {
+	position:absolute;
+	top:89px; left:0px;
+	height:423px;
+}
+
+#lesson163 div.tips {
+	position:relative;
+	background-color:transparent;
+	width:835px;
+	margin-left:172px;
+}
+
+#lesson163 div.tips .slick-slide .item-l {
+	height:390px;
+}
+#lesson163 div.tips .slick-slide .item-r {
+	height:510px;
+}
+
+#lesson163 div.tips-slider {
+	padding:0 95px 0 95px;
+	background-color:transparent;
+	margin-top:10px;
+}
+
+#lesson163 .tips-item  {
+	position:relative;
+	height:510px;
+	background-color: #f1f1f1;
+	overflow: hidden;
+}
+
+#lesson163 .tips-item .txt {
+	padding:9px 15px;
+	line-height:1.5em;
+}

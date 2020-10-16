@@ -1,0 +1,369 @@
+.chapter-book {
+	position: relative;
+	width: 350px;
+	height: 500px;
+	-webkit-perspective: 100000px;
+	-moz-perspective: 100000px;
+	perspective: 100000px;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	
+	overflow:hidden;
+	border-radius: 0px 5px 5px 0px;
+	box-shadow: 4px 4px 10px 0px #888;
+	margin:70px auto;
+}
+
+.chapter-book ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.lesson .lesson-body .chapter-book ul li {
+    list-style-type:none;
+	list-style-image:none;
+}
+.chapter-book .hardcover_front li:first-child {
+	background-color: #eee;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.chapter-book .hardcover_front li:last-child {
+	background: #fffbec;
+}
+
+.chapter-book .hardcover_back li:first-child {
+	background: #fffbec;
+}
+
+.chapter-book .hardcover_back li:last-child {
+	background: #fffbec;
+}
+
+/* thickness of cover */
+.chapter-book .hardcover_front li:first-child:after,
+.chapter-book .hardcover_front li:first-child:before,
+.chapter-book .hardcover_front li:last-child:after,
+.chapter-book .hardcover_front li:last-child:before,
+.chapter-book .hardcover_back li:first-child:after,
+.chapter-book .hardcover_back li:first-child:before,
+.chapter-book .hardcover_back li:last-child:after,
+.chapter-book .hardcover_back li:last-child:before {
+	content: "";
+	background:#d6b290;
+}
+
+/* page */
+
+.chapter-book .page > li {
+	background: -webkit-linear-gradient(left, #e1e1e1 0%, #fffbf6 100%);
+	background: -moz-linear-gradient(left, #e1ddd8 0%, #fffbf6 100%);
+	background: -ms-linear-gradient(left, #e1ddd8 0%, #fffbf6 100%);
+	background: linear-gradient(left, #e1ddd8 0%, #fffbf6 100%);
+	box-shadow: inset 0px -1px 2px rgba(50, 50, 50, 0.1), inset -1px 0px 1px rgba(150, 150, 150, 0.2);
+	border-radius: 0px 5px 5px 0px;
+}
+
+.chapter-book .page h1 {
+	color:#444;
+	font-size:24px;
+	line-height:24px;
+	font-weight:bold;
+	margin:63px 0 0 34px;
+	text-shadow:1px 1px 1px #49848a;
+}
+.chapter-book .page h2 {
+	color:#65b8c0;
+	font-size:22px;
+	line-height:24px;
+	font-weight:bold;
+	margin-left:34px;
+}
+
+.chapter-book .hardcover_front {
+	z-index: 100;
+}
+
+.chapter-book .hardcover_back {
+	-webkit-transform: rotateY(-15deg) translateZ(-8px);
+	-moz-transform: rotateY(-15deg) translateZ(-8px);
+	transform: rotateY(-15deg) translateZ(-8px);
+}
+
+.chapter-book .hardcover_front,
+.chapter-book .hardcover_front li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 101%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.chapter-book .hardcover_front,
+.chapter-book .hardcover_back {
+	-webkit-transform-origin: 0% 100%;
+	-moz-transform-origin: 0% 100%;
+	transform-origin: 0% 100%;
+}
+
+.chapter-book .hardcover_front {
+	-webkit-transition: all 2s ease, z-index 1.8s;
+	-moz-transition: all 2s ease, z-index 1.8s;
+	transition: all 2s ease, z-index 1.8s;
+	transition: all 2s ease, z-index 1.8s;
+	border-right: 3px solid #bebebe;
+}
+
+/* HARDCOVER front */
+.chapter-book .hardcover_front li:first-child {
+	cursor: default;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-webkit-transform: translateZ(2px);
+	-moz-transform: translateZ(2px);
+	transform: translateZ(2px);
+}
+
+.chapter-book .hardcover_front li:last-child {
+	-webkit-transform: rotateY(180deg) translateZ(2px);
+	-moz-transform: rotateY(180deg) translateZ(2px);
+	transform: rotateY(180deg) translateZ(2px);
+}
+
+/* HARDCOVER back */
+.chapter-book .hardcover_back li:first-child {
+	-webkit-transform: translateZ(2px);
+	-moz-transform: translateZ(2px);
+	transform: translateZ(2px);
+}
+
+.chapter-book .hardcover_back li:last-child {
+	-webkit-transform: translateZ(-2px);
+	-moz-transform: translateZ(-2px);
+	transform: translateZ(-2px);
+}
+
+/* thickness of cover */
+.chapter-book .hardcover_front li:first-child:after,
+.chapter-book .hardcover_front li:first-child:before,
+.chapter-book .hardcover_front li:last-child:after,
+.chapter-book .hardcover_front li:last-child:before,
+.chapter-book .hardcover_back li:first-child:after,
+.chapter-book .hardcover_back li:first-child:before,
+.chapter-book .hardcover_back li:last-child:after,
+.chapter-book .hardcover_back li:last-child:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:#d6b290;
+}
+
+/* HARDCOVER front */
+.chapter-book .hardcover_front li:first-child:after,
+.chapter-book .hardcover_front li:first-child:before {
+	content: "";
+	width: 4px;
+	height: 100%;
+}
+
+.chapter-book .hardcover_front li:first-child:after {
+	content: "";
+	-webkit-transform: rotateY(90deg) translateZ(-2px) translateX(2px);
+	-moz-transform: rotateY(90deg) translateZ(-2px) translateX(2px);
+	transform: rotateY(90deg) translateZ(-2px) translateX(2px);
+}
+
+.chapter-book .hardcover_front li:first-child:before {
+	content: "";
+	-webkit-transform: rotateY(90deg) translateZ(158px) translateX(2px);
+	-moz-transform: rotateY(90deg) translateZ(158px) translateX(2px);
+	transform: rotateY(90deg) translateZ(158px) translateX(2px);
+}
+
+.chapter-book .hardcover_front li:last-child:after,
+.chapter-book .hardcover_front li:last-child:before {
+	content: "";
+	width: 4px;
+	height: 160px;
+}
+
+.chapter-book .hardcover_front li:last-child:after {
+	content: "";
+	-webkit-transform: rotateX(90deg) rotateZ(90deg) translateZ(80px) translateX(-2px) translateY(-78px);
+	-moz-transform: rotateX(90deg) rotateZ(90deg) translateZ(80px) translateX(-2px) translateY(-78px);
+	transform: rotateX(90deg) rotateZ(90deg) translateZ(80px) translateX(-2px) translateY(-78px);
+}
+.chapter-book .hardcover_front li:last-child:before {
+	content: "";
+	box-shadow: 0px 0px 30px 5px #333;
+	-webkit-transform: rotateX(90deg) rotateZ(90deg) translateZ(-140px) translateX(-2px) translateY(-78px);
+	-moz-transform: rotateX(90deg) rotateZ(90deg) translateZ(-140px) translateX(-2px) translateY(-78px);
+	transform: rotateX(90deg) rotateZ(90deg) translateZ(-140px) translateX(-2px) translateY(-78px);
+}
+
+/* thickness of cover */
+
+.chapter-book .hardcover_back li:first-child:after,
+.chapter-book .hardcover_back li:first-child:before {
+	content: "";
+	width: 4px;
+	height: 100%;
+}
+
+.chapter-book .hardcover_back li:first-child:after {
+	content: "";
+	-webkit-transform: rotateY(90deg) translateZ(-2px) translateX(2px);
+	-moz-transform: rotateY(90deg) translateZ(-2px) translateX(2px);
+	transform: rotateY(90deg) translateZ(-2px) translateX(2px);
+}
+.chapter-book .hardcover_back li:first-child:before {
+	content: "";
+	-webkit-transform: rotateY(90deg) translateZ(158px) translateX(2px);
+	-moz-transform: rotateY(90deg) translateZ(158px) translateX(2px);
+	transform: rotateY(90deg) translateZ(158px) translateX(2px);
+}
+
+.chapter-book .hardcover_back li:last-child:after,
+.chapter-book .hardcover_back li:last-child:before {
+	content: "";
+	width: 4px;
+	height: 160px;
+}
+
+.chapter-book .hardcover_back li:last-child:after {
+	content: "";
+	-webkit-transform: rotateX(90deg) rotateZ(90deg) translateZ(80px) translateX(2px) translateY(-78px);
+	-moz-transform: rotateX(90deg) rotateZ(90deg) translateZ(80px) translateX(2px) translateY(-78px);
+	transform: rotateX(90deg) rotateZ(90deg) translateZ(80px) translateX(2px) translateY(-78px);
+}
+
+.chapter-book .hardcover_back li:last-child:before {
+	content: "";
+	box-shadow: 10px -1px 80px 20px #666;
+	-webkit-transform: rotateX(90deg) rotateZ(90deg) translateZ(-140px) translateX(2px) translateY(-78px);
+	-moz-transform: rotateX(90deg) rotateZ(90deg) translateZ(-140px) translateX(2px) translateY(-78px);
+	transform: rotateX(90deg) rotateZ(90deg) translateZ(-140px) translateX(2px) translateY(-78px);
+}
+
+.chapter-book .page,
+.chapter-book .page > li {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.chapter-book .page {
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	z-index: 10;
+}
+
+.chapter-book .page > li {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*.chapter-book:hover > .hardcover_front {*/
+.chapter-book.active > .hardcover_front {
+	-webkit-transform: rotateY(-145deg) translateZ(0);
+	-moz-transform: rotateY(-145deg) translateZ(0);
+	transform: rotateY(-145deg) translateZ(0);
+	z-index: 0;
+}
+
+.chapter-book .coverDesign {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+	background-color: #f8f8f8;
+	border-left:76px solid #65b8c0;
+}
+
+.chapter-book .coverDesign::after {
+	content: "";
+	background-image: -webkit-linear-gradient( -135deg, rgba(255, 255, 255, 0.45) 0%, transparent 100%);
+	background-image: -moz-linear-gradient( -135deg, rgba(255, 255, 255, 0.45) 0%, transparent 100%);
+	background-image: linear-gradient( -135deg, rgba(255, 255, 255, 0.45) 0%, transparent 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.chapter-book .coverDesign h1 {
+	position:relative;
+	color: #65b8c0;
+	font-size:24px;
+	font-weight:bold;
+	line-height:24px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	margin:63px 0 0 0;
+	text-shadow:2px 2px 0 rgba(0,0,0,0.1);
+	z-index:1;
+}
+
+/* default position and styles for all book-pages */
+.course .lesson .page-book,
+.course .lesson .page-chapter {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:667px;
+	padding:15px;
+}
+
+.chapter-book h3 {
+	font-size:52px;
+	line-height:52px;
+	font-weight:normal;
+	padding:15px 0 20px 31px;
+	text-shadow:1px 1px 1px #49848a;
+	color:#65b8c0;
+}
+
+/*
+.chapter-book h4 {
+	font-size:18px;
+	line-height:18px;
+	font-weight:normal;
+	padding-bottom:6px;
+	margin-left:34px;
+}
+*/
+
+.lesson .lesson-body .chapter-book ul.dir li {
+	font-size:18px;
+	line-height:18px;
+	font-weight:normal;
+	padding-bottom:6px;
+	margin-left:50px;
+	list-style-image:url(../img/li-box.png);
+}
+
+.lesson .lesson-body .chapter-book h3.accent,
+.lesson .lesson-body .chapter-book ul.dir li.accent {
+	font-weight:bold;
+	animation: sprite_chapter_book1 0.5s infinite;
+}
+
+@keyframes sprite_chapter_book1 {
+	0% { color:#fbf8f3; opacity:0; }
+	50% { color:#65b8c0; opacity:1; }
+	100% { color:#65b8c0; opacity:1; }
+}

@@ -1,0 +1,425 @@
+﻿/* new: card sequence */
+#lesson800,
+#lesson820,
+#lesson830,
+#lesson840,
+#lesson80 {
+	display:none;
+}
+
+#lesson80 .bg {
+	position:absolute;
+	top:110px; left:0px;
+	text-align:left;
+	width:1016px; height:558px;
+	overflow:hidden;
+}
+
+#lesson80 .bg img.floor {
+	position:absolute;
+	top:-162px; left:0;
+}
+#lesson80 .bg img.people {
+	position:absolute;
+	top:107px; right:77px;
+	width:700px;
+}
+#lesson80 .bg img.board {
+	position:absolute;
+	top:-12px; left:210px;
+	width:807px; height:489px;
+}
+
+#lesson80 .bg img.is_sue {
+	position:absolute;
+	top:31px; left:0px;
+	height:530px;
+}
+
+#lesson80 .bg img.is_sam {
+	position:absolute;
+	top:44px; left:0px;
+	height:506px;
+}
+
+#lesson80 .bg div.intro {
+	position:absolute;
+	top:41px; left:286px;
+	width:659px; height:354px;
+	background-color:#fff;
+	padding:15px;
+}
+
+#lesson80 .intro a {
+	cursor:pointer;
+}
+#lesson80 .intro a img {
+	opacity:0.85;
+}
+#lesson80 .intro a:hover img {
+	opacity:1;
+}
+
+#lesson80 .videoplayer {
+	position:absolute;
+	top:55px; left:111px;
+	width:794px; height:450px;
+}
+
+/* old: 4 cards
+#lesson80 {
+	display:none;
+}
+
+#lesson80 .bg {
+	position:absolute;
+	top:118px; left:0px;
+	text-align:left;
+	width:1016px;
+	height:549px;
+	overflow:hidden;
+}
+
+#lesson80 img.avatar_sue {
+	position:absolute;
+	top:31px; left:11px;
+	height:530px;
+}
+
+#lesson80 img.avatar_sam {
+	position:absolute;
+	top:44px; left:9px;
+	height:506px;
+}
+
+#lesson80 div.cards80 {
+	padding:0 81px 0 47px;
+	margin-top:91px;
+	min-height:323px;
+}
+
+#lesson80 div.card {
+	display:inline-block;
+	position:relative;
+	width:147px;
+	vertical-align:top;
+	text-align:center;
+	cursor:pointer;
+}
+
+#lesson80 div.card img.card {
+	width:112px;
+}
+
+#lesson80 div.card img.check,
+#lesson80 div.card img.partial {
+	position:absolute;
+	top:135px; left:72px;
+	width:35px; height:35px;
+}
+
+#lesson80 div.card span {
+	display:inline-block;
+	width:100%;
+	text-align:left;
+	padding-left:23px;
+}
+
+#lesson80 .bg img.floor {
+	position:absolute;
+	top:-162px; left:0;
+}
+#lesson80 .bg img.people {
+	position:absolute;
+	top:107px; right:77px;
+	width:700px;
+}
+#lesson80 .bg img.board {
+	position:absolute;
+	top:0; left:225px;
+	width:782px; height:463px;
+}
+
+#lesson81 {
+	display:none;
+}
+
+#lesson81 .videoplayer {
+	height:506px;
+	overflow:hidden;
+	text-align:center;
+}
+
+#lesson81 .videoplayer .flowplayer {
+	height:502px;
+	width:892px;
+}
+
+#lesson81 .lesson-body p.video {
+	margin-top:10px;
+}
+*/
+
+#lesson82 {
+	display:none;
+}
+
+#lesson82 .lesson-body .row1 { overflow:hidden; }
+#lesson82 .lesson-body .infobox { width:100%; }
+
+#lesson82 .accordion {
+	margin-top:20px;
+	overflow-y:auto;
+	max-height:524px;
+}
+
+#lesson82 .accordion img {
+	max-width:100%;
+}
+
+#lesson82 .ui-accordion .ui-accordion-header {
+	display:block;
+	cursor:pointer;
+	position:relative;
+	margin:2px 0 0 0;
+	padding:12px 12px 12px 59px;
+	min-height:0;
+	font-size:100%;
+	text-transform:uppercase;
+	margin-top:10px;
+	outline:none;
+	border:2px solid #e4e4e4;
+}
+
+#lesson82 .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position:absolute;
+    left:18px;
+	top:0px;
+    margin-top:15px;
+}
+
+#lesson82 .ui-widget {
+	font-family:inherit;
+	font-weight:normal;
+	font-size:1.5em;
+}
+#lesson82 .ui-widget-content {
+	background:#fff;
+	border:0 none;
+}
+
+#lesson82 .ui-state-default {
+	border:0 none;
+	background:#fff;
+	font-weight:bold;
+	color: #3c3c3c;
+}
+
+#lesson82 .ui-state-active {
+	border:0 none;
+	background:#65b8c0;
+	font-weight:bold;
+	color:#fff;
+}
+
+#lesson82 .ui-accordion .ui-accordion-header.ui-state-active {
+	border-color:transparent;
+}
+
+#lesson82 .ui-icon {
+	width:26px;
+	height:26px;
+}
+
+#lesson82 .ui-state-default .ui-icon {
+	background-image:url(../img/i-panel-plus.png);
+}
+#lesson82 .ui-icon-triangle-1-e,
+#lesson82 .ui-icon-triangle-1-s { background-position:0 0; }
+
+#lesson82 .ui-state-active .ui-icon {
+	background-image:url(../img/i-panel-minus.png);
+}
+
+#lesson82 .ui-accordion .ui-accordion-content { padding: 1em 2em; }
+
+#lesson82 .examp {
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:20px;
+}
+#lesson82 .examp .wrap {
+	background-color:#f9f9f9;
+	position:relative;
+	padding:25px;
+}
+
+#lesson82 .examp .wrap .imgico {
+	position:absolute;
+	top:65px; left:13px;
+	width:100px;
+	text-align:center;
+}
+#lesson82 .examp .wrap .txt {
+	width:100%;
+	padding-left:100px;
+	min-height:112px;
+}
+
+#lesson82 p.after-acc { margin-top:25px; }
+
+
+#lesson83 {
+	display:none;
+}
+
+#lesson83 h3 {
+	font-size:23px;
+	font-weight:600;
+	line-height:30px;
+	padding-bottom:15px;
+	text-align:center;
+}
+
+#lesson83 .wrap-emailexample {
+	position:relative;
+}
+
+#lesson83 .email-example {
+	width:865px;
+	border-radius:24px;
+	position:relative;
+	margin:0 auto;
+	background:#e1e1e1;
+	border:10px solid #65b8c0;
+}
+
+#lesson83 .email-example .lmenu {
+	width:110px;
+	background:#e1e1e1;
+	overflow:hidden;
+}
+
+#lesson83 .email-example .lmenu .lm-item {
+	background:#b6b6b6;
+	font-size:16px;
+	line-height:16px;
+	padding:7px 0;
+	text-align:center;
+	margin-bottom:8px;
+	border-right:1px solid #e1e1e1;
+	color:#222;
+}
+#lesson83 .email-example .lmenu .lm-item.active {
+	font-weight:600;
+	background:#eaad72;
+	color:#111;
+}
+
+#lesson83 .email-example .rbody {
+	background:#e1e1e1;
+	border-bottom-right-radius:14px;
+	border-top-right-radius:14px;
+	border-left:9px solid #65b8c0;
+	width:719px;
+	padding:20px;
+}
+
+#lesson83 .email-example .rbody .emailbody {
+	background:#fff;
+	padding:10px 10px 20px 10px;
+}
+
+#lesson83 .email-example .rbody p {
+	color:#444;
+	padding-bottom:8px;
+	font-size:15px;
+	line-height:23px;
+}
+#lesson83 .email-example .rbody a {
+	font-size:15px;
+	line-height:23px;
+}
+
+#lesson83 .email-example .rbody span.toexplain {
+	display:inline-block;
+	font-size:inherit;
+	border-bottom:1px solid #f00;
+}
+
+#lesson83 .wrap-emailexample .explainer {
+	position: absolute;
+	border:1px solid #f00;
+	border-radius:4px;
+	padding:10px;
+	font-size:14px;
+	line-height:18px;
+	color:#333;
+	background:#fbfbfb;
+}
+
+#lesson83 .wrap-emailexample .explainer-1 {
+	top:35px; left:392px;
+}
+#lesson83 .wrap-emailexample .explainer-2 {
+	top:87px; left:588px;
+}
+#lesson83 .wrap-emailexample .explainer-3 {
+	top:114px; left:392px;
+}
+#lesson83 .wrap-emailexample .explainer-4 {
+	top:271px;
+	left:601px;
+}
+#lesson83 .wrap-emailexample .explainer-5 {
+	top:329px; left:392px;
+}
+
+
+#lesson84 {
+	display:none;
+}
+
+#lesson84 p.url,
+#lesson84 div.url {
+	background-color:#f1f1f1;
+	border-radius:5px;
+	display:inline-block;
+	padding:7px 7px 7px 30px;
+	margin-bottom:10px;
+	font-weight:bold;
+	background-image:url(0084-url-i.png);
+	background-repeat:no-repeat;
+	background-position:7px center;
+}
+#lesson84 div.url { cursor:pointer; }
+
+#lesson84 div.url span { pointer-events:none; }
+
+#lesson84 p.url span.gray,
+#lesson84 div.url span.gray { color:#a2a2a2; }
+#lesson84 p.url span.red,
+#lesson84 div.url span.red { color:#de3f3f; }
+
+#lesson84 div.rel { position:relative; }
+
+#lesson84 div.url span.blink {
+	animation:sprite_84blink 0.6s ease 0s infinite;
+}
+@keyframes sprite_84blink {
+	0% { color:#f55; }
+	50% { color:#000; }
+	100% { color:#f55; }
+}
+
+#lesson84 .bubble3 {
+	position: absolute;
+	font-size:1px;
+	line-height:1px;
+	width:600px;
+	bottom:70px; left:237px;
+}
+#lesso84 div.bubble3:after {
+	pointer-events:none;
+	left:48px; bottom:-54px;
+}

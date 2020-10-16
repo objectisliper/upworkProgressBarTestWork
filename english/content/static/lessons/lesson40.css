@@ -1,0 +1,117 @@
+﻿#lesson40 {
+	display:none;
+}
+
+#lesson40 .lesson-body {
+	background-image:url(0040-bg.png);
+	background-repeat:no-repeat;
+	background-position:left -38px;
+}
+
+#lesson40 .row { margin-top:0; }
+
+#lesson40 .avatar {
+	position:absolute;
+}
+
+#lesson40 .avatar.woman-sue {
+	top:191px; left:75px;
+}
+#lesson40 .avatar.man-sam {
+	top:191px; left:75px;
+}
+
+#lesson40 .lesson-body .pop-msg {
+	width:725px;
+	right:40px; top:131px;
+}
+
+#lesson40 div.cards40 {
+	text-align:center;
+}
+#lesson40 div.cards40 p {
+	text-align:left;
+}
+
+#lesson40 div.card {
+	display:inline-block;
+	position:relative;
+	width:220px;
+	vertical-align:top;
+	text-align:center;
+}
+
+#lesson40 div.card img.card {
+	width:86px;
+}
+
+#lesson40 div.card img.check,
+#lesson40 div.card img.partial {
+	display:block;
+	position:absolute;
+	top:102px; left:55px;
+	width:28px; height:28px;
+}
+
+#lesson40 div.card span {
+	display:inline-block;
+	width:100px;
+	text-align:left;
+	padding-left:0;
+	/*font-size:14px;*/
+	line-height:19px;
+	vertical-align:top;
+	margin-top:20px;
+	margin-left:8px;
+}
+
+#lesson40 div.card2 {
+	display:block;
+	margin-left:18px;
+}
+
+#lesson40 div.card2 img.card {
+	display:block;
+	float:left;
+	width:86px;
+}
+
+#lesson40 div.card2 p {
+	display:block;
+	float:left;
+	width:559px;
+	/*font-size:14px;*/
+	text-align:left;
+	line-height:19px;
+	padding:23px 0 4px 9px;
+}
+
+#lesson40 div.card2 div.wrap-c-p {
+	text-align:left;
+	float:left;
+	width:551px;
+	padding:9px 0 0 9px;
+}	
+
+#lesson40 div.card2 .info-cards-points {
+	display:inline-block;
+	background-color:#f3f3f3;
+	padding:4px;
+}
+
+#lesson40 div.card2 .info-cards-points .c,
+#lesson40 div.card2 .info-cards-points .p {
+	display:inline-block;
+	/*font-size:14px;*/
+}
+#lesson40 div.card2 .info-cards-points .c { margin-right:10px; }
+
+#lesson40 div.card2 .info-cards-points .c span,
+#lesson40 div.card2 .info-cards-points .p span {
+	display:inline-block;
+	border:1px solid rgb(202,202,202);
+	font-size:14px;
+	line-height:16px;
+	padding:2px 8px;
+	width:55px;
+}

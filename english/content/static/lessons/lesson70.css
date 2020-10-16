@@ -1,0 +1,94 @@
+﻿#lesson730,
+#lesson73 {
+	display:none;
+}
+
+#lesson73 .lesson-quiz {
+	position:absolute;
+	top:114px; left:0px;
+	width:1016px;
+	height:553px;
+	overflow:hidden;
+}
+
+#lesson73 img.bg {
+	width:1016px;
+}
+
+#lesson73 .lesson-quiz .d-body
+{
+	position:absolute;
+	top:257px; left:103px;
+	width:807px;
+	height:253px;
+}
+
+#lesson73 .quest
+{
+	display:inline-block;
+	width:233px;
+	margin:0 16px;
+	border:4px solid #f1a917;
+	border-radius:15px;
+	padding:20px 23px;
+	vertical-align:top;
+	font-family:"Nunito",Arial;
+	font-size:26px;
+	line-height:33px;
+	font-weight:bold;
+	background:#fff;
+	box-shadow:10px 10px 10px rgba(101, 79, 35, 0.26);
+	cursor:pointer;
+}
+#lesson73 .quest:hover
+{
+	border-color:#9a6a09;
+}
+
+#lesson73 .quest .m { display:none; }
+
+#lesson73 .quest .red { color:#e85436; }
+#lesson73 .quest .a {
+	font-size:25px;
+	font-weight:normal;
+	color:#196c6d;
+}
+
+#lesson73 .bl-red { background:#ff8484; }
+#lesson73 .bl-green { background:#98cca1; }
+
+#lesson73 div.bubble {
+    position:absolute;
+	left:355px; top:0;
+	width:322px;
+	background:#ff7d00;
+	border-radius:15px;
+	padding:12px 12px;
+	font-size:22px;
+	font-weight:bold;
+	box-shadow:5px 7px 10px rgba(77, 56, 9, 0.58);
+}
+#lesson73 div.bubble:before {
+	content:"";
+	display:block;
+	background-image:url(0073-bubble-arr.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	width:88px; height:70px;
+	position:absolute;
+	left:-88px; top:74px;
+}
+#lesson73 .bubble h2 {
+	font-weight:bold;
+	font-size:21px;
+	line-height:28px;
+	color:#ffc943;
+	padding:14px 16px;
+}
+#lesson73 .lesson-quiz .bubble h3 {
+	font-weight:bold;
+	font-size:19px;
+	line-height:24px;
+	color:#fff;
+	padding:0 16px 13px 16px;
+}

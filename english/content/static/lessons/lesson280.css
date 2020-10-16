@@ -1,0 +1,62 @@
+﻿#lesson280 {
+	display:none;
+}
+
+#lesson280 .col-img {
+	text-align:center;
+}
+
+#lesson280 .col-ok img.is_sam {
+	width:121px;
+	margin-top:87px;
+}
+#lesson280 .col-ok img.is_sue {
+	width:110px;
+	margin-top:87px;
+}
+
+#lesson280 .col-bad img.is_sam {
+	width:121px;
+	margin-top:87px;
+}
+#lesson280 .col-bad img.is_sue {
+	width:110px;
+	margin-top:87px;
+}
+
+#lesson280 .col-bad-txt {
+	padding-top:149px;
+}
+
+#lesson280 .col-ok-txt {
+	padding-top: 129px;
+}
+	
+#lesson280 .col-bad-txt h3,
+#lesson280 .col-ok-txt h3 {
+	color:#65b8c0;
+	font-size:20px;
+	line-height:20px;
+	padding-bottom:20px;
+}
+
+#lesson280 .col-bad-txt p.bot-buttons,
+#lesson280 .col-ok-txt p.bot-buttons {
+	text-align:center;
+	background-color:transparent;
+}
+
+#lesson280 p.bold {
+	font-weight:600;
+}
+#lesson280 p.bold span {
+	font-weight:normal;
+}
+
+#lesson280 button.b-xx-close { margin-top:12px; }
+
+/* certificate */
+#lesson281 {
+	display:none;
+}
+
