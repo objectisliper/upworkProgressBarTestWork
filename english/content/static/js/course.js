@@ -427,8 +427,10 @@ var Course = {
 
 		if (Course.calculateLessonProgress(id) !== null) {
 			const progressText = `OVERALL PROGRESS: ${Course.calculateOverallProgress()}% | ` +
-				`LESSON 4: ${Course.calculateLessonProgress(id)}%`
+				`LESSON ${Course.getLessonNumberBySubChapterId(id)}: ${Course.calculateLessonProgress(id)}%`
 			$('#lessonProgressPercent p')[0].innerText = progressText;
+		} else  {
+			$('#lessonProgressPercent p')[0].innerText = '';
 		}
 
 		var elLes = $('#lesson' + id);
@@ -905,6 +907,13 @@ var Course = {
 
 		const displayChapter = $(`#lesson${id}`);
 		return mainChapters.reverse().find(chapter => displayChapter.prevAll(`#lesson${chapter}`).length > 0);
+	},
+
+	getLessonNumberBySubChapterId: function (id) {
+		const mainChapters = $('.menu-en .lesx').toArray()
+			.map(chapter => Number(chapter.classList.item(1).replace( /^\D+/g, '')));
+
+		return mainChapters.findIndex(chapter => chapter === this.getMainChapterBySubChapterId(id)) + 1;
 	}
 };
 
